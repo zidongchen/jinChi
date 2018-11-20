@@ -1,0 +1,2273 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>库存管理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/库存管理/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/库存管理/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 选项卡 (组 合) -->
+      <div id="u4245" class="ax_default" data-label="选项卡" data-left="130" data-top="139" data-width="980" data-height="55">
+
+        <!-- 选项卡底部 (矩形) -->
+        <div id="u4246" class="ax_default _默认样式" data-label="选项卡底部">
+          <div id="u4246_div" class=""></div>
+        </div>
+
+        <!-- 打包 (矩形) -->
+        <div id="u4247" class="ax_default button selected" data-label="打包">
+          <div id="u4247_div" class="selected"></div>
+          <div id="u4247_text" class="text ">
+            <p><span style="font-family:'FontAwesome';"></span><span style="font-family:'Helvetica';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">原材料库存</span></p>
+          </div>
+        </div>
+
+        <!-- 审核 (矩形) -->
+        <div id="u4248" class="ax_default button" data-label="审核">
+          <div id="u4248_div" class=""></div>
+          <div id="u4248_text" class="text ">
+            <p><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">产品库存</span></p>
+          </div>
+        </div>
+
+        <!-- 审核红点提示 (椭圆形) -->
+        <div id="u4249" class="ax_default ellipse ax_default_hidden" data-label="审核红点提示" style="display:none; visibility: hidden">
+          <img id="u4249_img" class="img " src="images/进货检验/审核红点提示_u1281.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u4250" class="ax_default" data-left="130" data-top="50" data-width="980" data-height="90">
+
+        <!-- Unnamed (组 合) -->
+        <div id="u4251" class="ax_default" data-left="130" data-top="50" data-width="980" data-height="90">
+
+          <!-- 页头底部 (矩形) -->
+          <div id="u4252" class="ax_default _默认样式" data-label="页头底部">
+            <div id="u4252_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u4253" class="ax_default _默认样式">
+            <div id="u4253_div" class=""></div>
+            <div id="u4253_text" class="text ">
+              <p><a id="u4254" class="link"><span style="color:#3478F7;">首页</span></a><span style="color:#999999;">&gt;</span><span style="color:#666666;"> </span><span style="color:#999999;">智能仓库</span><span style="color:#666666;"> </span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u4255" class="ax_default _默认样式">
+            <div id="u4255_div" class=""></div>
+            <div id="u4255_text" class="text ">
+              <p><span>库存管理</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (菜单和导航) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4257" class="ax_default box_1">
+        <div id="u4257_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u4258" class="ax_default _图片">
+        <img id="u4258_img" class="img " src="images/logo.jpg"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4259" class="ax_default _默认样式">
+        <img id="u4259_img" class="img " src="images/index/u3.png"/>
+        <div id="u4259_text" class="text ">
+          <p><span>金驰 2+1 信息管理系统</span></p>
+        </div>
+      </div>
+
+      <!-- 操作 (组 合) -->
+      <div id="u4260" class="ax_default" data-label="操作" data-left="965" data-top="8" data-width="125" data-height="35">
+
+        <!-- 退出 (矩形) -->
+        <div id="u4261" class="ax_default box_1" data-label="退出">
+          <div id="u4261_div" class=""></div>
+          <div id="u4261_text" class="text ">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- 待办 (矩形) -->
+        <div id="u4262" class="ax_default box_1" data-label="待办">
+          <div id="u4262_div" class=""></div>
+          <div id="u4262_text" class="text ">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- 帮助 (矩形) -->
+        <div id="u4263" class="ax_default box_1" data-label="帮助">
+          <div id="u4263_div" class=""></div>
+          <div id="u4263_text" class="text ">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4264" class="ax_default box_3">
+        <div id="u4264_div" class=""></div>
+      </div>
+
+      <!-- 角色管理 (动态面板) -->
+      <div id="u4265" class="ax_default" data-label="角色管理">
+        <div id="u4265_state0" class="panel_state" data-label="隐藏" style="">
+          <div id="u4265_state0_content" class="panel_state_content">
+
+            <!-- 角色管理 (矩形) -->
+            <div id="u4266" class="ax_default box_1" data-label="角色管理">
+              <div id="u4266_div" class=""></div>
+              <div id="u4266_text" class="text ">
+                <p><span>角色管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4267" class="ax_default _文本段落">
+              <div id="u4267_div" class=""></div>
+              <div id="u4267_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4268" class="ax_default _文本段落">
+              <div id="u4268_div" class=""></div>
+              <div id="u4268_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u4265_state1" class="panel_state" data-label="显示" style="visibility: hidden;">
+          <div id="u4265_state1_content" class="panel_state_content">
+
+            <!-- 角色管理 (矩形) -->
+            <div id="u4269" class="ax_default box_1" data-label="角色管理">
+              <div id="u4269_div" class=""></div>
+              <div id="u4269_text" class="text ">
+                <p><span>角色管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4270" class="ax_default _子菜单项">
+              <div id="u4270_div" class=""></div>
+              <div id="u4270_text" class="text ">
+                <p><span>角色管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4271" class="ax_default _子菜单项">
+              <div id="u4271_div" class=""></div>
+              <div id="u4271_text" class="text ">
+                <p><span>菜单管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4272" class="ax_default _子菜单项">
+              <div id="u4272_div" class=""></div>
+              <div id="u4272_text" class="text ">
+                <p><span>操作管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4273" class="ax_default _子菜单项">
+              <div id="u4273_div" class=""></div>
+              <div id="u4273_text" class="text ">
+                <p><span>部门管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4274" class="ax_default _子菜单项">
+              <div id="u4274_div" class=""></div>
+              <div id="u4274_text" class="text ">
+                <p><span>用户管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4275" class="ax_default _文本段落">
+              <div id="u4275_div" class=""></div>
+              <div id="u4275_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4276" class="ax_default _文本段落">
+              <div id="u4276_div" class=""></div>
+              <div id="u4276_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 质量流程 (动态面板) -->
+      <div id="u4277" class="ax_default" data-label="质量流程">
+        <div id="u4277_state0" class="panel_state" data-label="隐藏" style="">
+          <div id="u4277_state0_content" class="panel_state_content">
+
+            <!-- 质量流程 (矩形) -->
+            <div id="u4278" class="ax_default box_1" data-label="质量流程">
+              <div id="u4278_div" class=""></div>
+              <div id="u4278_text" class="text ">
+                <p><span>质量流程</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4279" class="ax_default _文本段落">
+              <div id="u4279_div" class=""></div>
+              <div id="u4279_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4280" class="ax_default _文本段落">
+              <div id="u4280_div" class=""></div>
+              <div id="u4280_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u4277_state1" class="panel_state" data-label="显示" style="visibility: hidden;">
+          <div id="u4277_state1_content" class="panel_state_content">
+
+            <!-- 质量流程 (矩形) -->
+            <div id="u4281" class="ax_default box_1" data-label="质量流程">
+              <div id="u4281_div" class=""></div>
+              <div id="u4281_text" class="text ">
+                <p><span>质量流程</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4282" class="ax_default _子菜单项">
+              <div id="u4282_div" class=""></div>
+              <div id="u4282_text" class="text ">
+                <p><span>数据录入</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4283" class="ax_default _子菜单项">
+              <div id="u4283_div" class=""></div>
+              <div id="u4283_text" class="text ">
+                <p><span>流程管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4284" class="ax_default _子菜单项">
+              <div id="u4284_div" class=""></div>
+              <div id="u4284_text" class="text ">
+                <p><span>待办事项</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4285" class="ax_default _子菜单项">
+              <div id="u4285_div" class=""></div>
+              <div id="u4285_text" class="text ">
+                <p><span>基础数据</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4286" class="ax_default _文本段落">
+              <div id="u4286_div" class=""></div>
+              <div id="u4286_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4287" class="ax_default _文本段落">
+              <div id="u4287_div" class=""></div>
+              <div id="u4287_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 智能仓库 (动态面板) -->
+      <div id="u4288" class="ax_default" data-label="智能仓库">
+        <div id="u4288_state0" class="panel_state" data-label="隐藏" style="">
+          <div id="u4288_state0_content" class="panel_state_content">
+
+            <!-- 一级菜单 (矩形) -->
+            <div id="u4289" class="ax_default box_1" data-label="一级菜单">
+              <div id="u4289_div" class=""></div>
+              <div id="u4289_text" class="text ">
+                <p><span>智能仓库</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4290" class="ax_default _文本段落">
+              <div id="u4290_div" class=""></div>
+              <div id="u4290_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4291" class="ax_default _文本段落">
+              <div id="u4291_div" class=""></div>
+              <div id="u4291_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u4288_state1" class="panel_state" data-label="显示" style="visibility: hidden;">
+          <div id="u4288_state1_content" class="panel_state_content">
+
+            <!-- 一级菜单 (矩形) -->
+            <div id="u4292" class="ax_default box_1" data-label="一级菜单">
+              <div id="u4292_div" class=""></div>
+              <div id="u4292_text" class="text ">
+                <p><span>智能仓库</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4293" class="ax_default _子菜单项">
+              <div id="u4293_div" class=""></div>
+              <div id="u4293_text" class="text ">
+                <p><span>入库管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4294" class="ax_default _子菜单项">
+              <div id="u4294_div" class=""></div>
+              <div id="u4294_text" class="text ">
+                <p><span>出库管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4295" class="ax_default _子菜单项">
+              <div id="u4295_div" class=""></div>
+              <div id="u4295_text" class="text ">
+                <p><span>库存管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4296" class="ax_default _子菜单项">
+              <div id="u4296_div" class=""></div>
+              <div id="u4296_text" class="text ">
+                <p><span>盘库管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4297" class="ax_default _子菜单项">
+              <div id="u4297_div" class=""></div>
+              <div id="u4297_text" class="text ">
+                <p><span>红单管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4298" class="ax_default _文本段落">
+              <div id="u4298_div" class=""></div>
+              <div id="u4298_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4299" class="ax_default _文本段落">
+              <div id="u4299_div" class=""></div>
+              <div id="u4299_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u4300" class="ax_default">
+        <div id="u4300_state0" class="panel_state" data-label="原材料入库" style="">
+          <div id="u4300_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (组 合) -->
+            <div id="u4301" class="ax_default" data-left="250" data-top="590" data-width="560" data-height="35">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u4302" class="ax_default _默认样式">
+                <div id="u4302_div" class=""></div>
+                <div id="u4302_text" class="text ">
+                  <p><span style="font-family:'微软雅黑';font-weight:400;">下一页</span><span style="font-family:'FontAwesome';font-weight:400;"> </span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u4303" class="ax_default _默认样式">
+                <div id="u4303_div" class=""></div>
+                <div id="u4303_text" class="text ">
+                  <p><span style="font-family:'FontAwesome';font-weight:400;"> 上</span><span style="font-family:'微软雅黑';font-weight:400;">一页</span><span style="font-family:'FontAwesome';font-weight:400;"> </span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u4304" class="ax_default _默认样式">
+                <div id="u4304_div" class=""></div>
+                <div id="u4304_text" class="text ">
+                  <p><span>尾页</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u4305" class="ax_default _默认样式">
+                <div id="u4305_div" class=""></div>
+                <div id="u4305_text" class="text ">
+                  <p><span>首页</span></p>
+                </div>
+              </div>
+
+              <!-- 页码 (矩形) -->
+              <div id="u4306" class="ax_default _默认样式" data-label="页码">
+                <div id="u4306_div" class=""></div>
+                <div id="u4306_text" class="text ">
+                  <p><span>共 400 条记录 第 1 / 80 页 </span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 数据表格 (组 合) -->
+            <div id="u4307" class="ax_default" data-label="数据表格" data-left="0" data-top="45" data-width="810" data-height="535">
+
+              <!-- Unnamed (表格) -->
+              <div id="u4308" class="ax_default">
+
+                <!-- Unnamed (单元格) -->
+                <div id="u4309" class="ax_default _默认样式">
+                  <img id="u4309_img" class="img " src="images/样品送检/u903.png"/>
+                </div>
+
+                <!-- Unnamed (单元格) -->
+                <div id="u4310" class="ax_default _默认样式">
+                  <img id="u4310_img" class="img " src="images/样品送检/u903.png"/>
+                  <div id="u4310_text" class="text ">
+                    <p><span>序号</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (单元格) -->
+                <div id="u4311" class="ax_default _默认样式">
+                  <img id="u4311_img" class="img " src="images/库存管理/u4311.png"/>
+                  <div id="u4311_text" class="text ">
+                    <p><span>货物名称</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (单元格) -->
+                <div id="u4312" class="ax_default _默认样式">
+                  <img id="u4312_img" class="img " src="images/库存管理/u4311.png"/>
+                  <div id="u4312_text" class="text ">
+                    <p><span>货物型号</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (单元格) -->
+                <div id="u4313" class="ax_default _默认样式">
+                  <img id="u4313_img" class="img " src="images/库存管理/u4311.png"/>
+                  <div id="u4313_text" class="text ">
+                    <p><span>批号</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (单元格) -->
+                <div id="u4314" class="ax_default _默认样式">
+                  <img id="u4314_img" class="img " src="images/库存管理/u4311.png"/>
+                  <div id="u4314_text" class="text ">
+                    <p><span>数量</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (单元格) -->
+                <div id="u4315" class="ax_default _默认样式">
+                  <img id="u4315_img" class="img " src="images/库存管理/u4315.png"/>
+                  <div id="u4315_text" class="text ">
+                    <p><span>重量</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Table (中继器) -->
+              <div id="u4316" class="ax_default" data-label="Table">
+                <script id="u4316_script" type="axure-repeater-template" data-label="Table">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4317" class="ax_default u4317">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4318" class="ax_default _默认样式 u4318">
+                      <img id="u4318_img" class="img u4318_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4319" class="ax_default _默认样式 u4319" data-label="序号">
+                      <img id="u4319_img" class="img u4319_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4320" class="ax_default _默认样式 u4320" data-label="原材料名称">
+                      <img id="u4320_img" class="img u4320_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4320_text" class="text u4320_text">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4321" class="ax_default _默认样式 u4321">
+                      <img id="u4321_img" class="img u4321_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4321_text" class="text u4321_text">
+                        <p><span>钴锰矿一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4322" class="ax_default _默认样式 u4322" data-label="批号">
+                      <img id="u4322_img" class="img u4322_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4322_text" class="text u4322_text">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4323" class="ax_default _默认样式 u4323">
+                      <img id="u4323_img" class="img u4323_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4323_text" class="text u4323_text">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4324" class="ax_default _默认样式 u4324">
+                      <img id="u4324_img" class="img u4324_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4324_text" class="text u4324_text">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4325" class="ax_default _默认样式 u4325" data-label="复选框">
+                    <div id="u4325_div" class="u4325_div"></div>
+                    <div id="u4325_text" class="text u4325_text">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4326" class="ax_default _高亮行 ax_default_hidden u4326" data-label="表格高亮行" style="display:none; visibility: hidden">
+                    <div id="u4326_div" class="u4326_div"></div>
+                  </div>
+                </script>
+                <div id="u4316-1" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4317-1" class="ax_default u4317" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4318-1" class="ax_default _默认样式 u4318" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4318-1_img" class="img u4318_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4319-1" class="ax_default _默认样式 u4319" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4319-1_img" class="img u4319_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4320-1" class="ax_default _默认样式 u4320" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4320-1_img" class="img u4320_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4320-1_text" class="text u4320_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4321-1" class="ax_default _默认样式 u4321" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4321-1_img" class="img u4321_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4321-1_text" class="text u4321_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4322-1" class="ax_default _默认样式 u4322" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4322-1_img" class="img u4322_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4322-1_text" class="text u4322_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4323-1" class="ax_default _默认样式 u4323" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4323-1_img" class="img u4323_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4323-1_text" class="text u4323_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4324-1" class="ax_default _默认样式 u4324" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4324-1_img" class="img u4324_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4324-1_text" class="text u4324_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4325-1" class="ax_default _默认样式 u4325" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4325-1_div" class="u4325_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4325-1_text" class="text u4325_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4326-1" class="ax_default _高亮行 u4326" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4326-1_div" class="u4326_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4316-2" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4317-2" class="ax_default u4317" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4318-2" class="ax_default _默认样式 u4318" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4318-2_img" class="img u4318_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4319-2" class="ax_default _默认样式 u4319" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4319-2_img" class="img u4319_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4320-2" class="ax_default _默认样式 u4320" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4320-2_img" class="img u4320_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4320-2_text" class="text u4320_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4321-2" class="ax_default _默认样式 u4321" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4321-2_img" class="img u4321_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4321-2_text" class="text u4321_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4322-2" class="ax_default _默认样式 u4322" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4322-2_img" class="img u4322_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4322-2_text" class="text u4322_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4323-2" class="ax_default _默认样式 u4323" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4323-2_img" class="img u4323_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4323-2_text" class="text u4323_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4324-2" class="ax_default _默认样式 u4324" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4324-2_img" class="img u4324_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4324-2_text" class="text u4324_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4325-2" class="ax_default _默认样式 u4325" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4325-2_div" class="u4325_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4325-2_text" class="text u4325_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4326-2" class="ax_default _高亮行 u4326" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4326-2_div" class="u4326_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4316-3" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4317-3" class="ax_default u4317" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4318-3" class="ax_default _默认样式 u4318" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4318-3_img" class="img u4318_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4319-3" class="ax_default _默认样式 u4319" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4319-3_img" class="img u4319_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4320-3" class="ax_default _默认样式 u4320" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4320-3_img" class="img u4320_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4320-3_text" class="text u4320_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4321-3" class="ax_default _默认样式 u4321" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4321-3_img" class="img u4321_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4321-3_text" class="text u4321_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4322-3" class="ax_default _默认样式 u4322" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4322-3_img" class="img u4322_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4322-3_text" class="text u4322_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4323-3" class="ax_default _默认样式 u4323" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4323-3_img" class="img u4323_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4323-3_text" class="text u4323_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4324-3" class="ax_default _默认样式 u4324" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4324-3_img" class="img u4324_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4324-3_text" class="text u4324_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4325-3" class="ax_default _默认样式 u4325" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4325-3_div" class="u4325_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4325-3_text" class="text u4325_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4326-3" class="ax_default _高亮行 u4326" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4326-3_div" class="u4326_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4316-4" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4317-4" class="ax_default u4317" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4318-4" class="ax_default _默认样式 u4318" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4318-4_img" class="img u4318_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4319-4" class="ax_default _默认样式 u4319" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4319-4_img" class="img u4319_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4320-4" class="ax_default _默认样式 u4320" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4320-4_img" class="img u4320_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4320-4_text" class="text u4320_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4321-4" class="ax_default _默认样式 u4321" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4321-4_img" class="img u4321_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4321-4_text" class="text u4321_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4322-4" class="ax_default _默认样式 u4322" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4322-4_img" class="img u4322_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4322-4_text" class="text u4322_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4323-4" class="ax_default _默认样式 u4323" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4323-4_img" class="img u4323_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4323-4_text" class="text u4323_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4324-4" class="ax_default _默认样式 u4324" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4324-4_img" class="img u4324_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4324-4_text" class="text u4324_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4325-4" class="ax_default _默认样式 u4325" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4325-4_div" class="u4325_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4325-4_text" class="text u4325_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4326-4" class="ax_default _高亮行 u4326" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4326-4_div" class="u4326_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4316-5" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4317-5" class="ax_default u4317" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4318-5" class="ax_default _默认样式 u4318" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4318-5_img" class="img u4318_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4319-5" class="ax_default _默认样式 u4319" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4319-5_img" class="img u4319_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4320-5" class="ax_default _默认样式 u4320" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4320-5_img" class="img u4320_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4320-5_text" class="text u4320_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4321-5" class="ax_default _默认样式 u4321" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4321-5_img" class="img u4321_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4321-5_text" class="text u4321_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4322-5" class="ax_default _默认样式 u4322" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4322-5_img" class="img u4322_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4322-5_text" class="text u4322_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4323-5" class="ax_default _默认样式 u4323" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4323-5_img" class="img u4323_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4323-5_text" class="text u4323_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4324-5" class="ax_default _默认样式 u4324" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4324-5_img" class="img u4324_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4324-5_text" class="text u4324_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4325-5" class="ax_default _默认样式 u4325" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4325-5_div" class="u4325_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4325-5_text" class="text u4325_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4326-5" class="ax_default _高亮行 u4326" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4326-5_div" class="u4326_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4316-6" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4317-6" class="ax_default u4317" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4318-6" class="ax_default _默认样式 u4318" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4318-6_img" class="img u4318_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4319-6" class="ax_default _默认样式 u4319" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4319-6_img" class="img u4319_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4320-6" class="ax_default _默认样式 u4320" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4320-6_img" class="img u4320_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4320-6_text" class="text u4320_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4321-6" class="ax_default _默认样式 u4321" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4321-6_img" class="img u4321_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4321-6_text" class="text u4321_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4322-6" class="ax_default _默认样式 u4322" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4322-6_img" class="img u4322_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4322-6_text" class="text u4322_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4323-6" class="ax_default _默认样式 u4323" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4323-6_img" class="img u4323_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4323-6_text" class="text u4323_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4324-6" class="ax_default _默认样式 u4324" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4324-6_img" class="img u4324_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4324-6_text" class="text u4324_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4325-6" class="ax_default _默认样式 u4325" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4325-6_div" class="u4325_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4325-6_text" class="text u4325_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4326-6" class="ax_default _高亮行 u4326" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4326-6_div" class="u4326_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4316-7" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4317-7" class="ax_default u4317" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4318-7" class="ax_default _默认样式 u4318" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4318-7_img" class="img u4318_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4319-7" class="ax_default _默认样式 u4319" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4319-7_img" class="img u4319_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4320-7" class="ax_default _默认样式 u4320" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4320-7_img" class="img u4320_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4320-7_text" class="text u4320_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4321-7" class="ax_default _默认样式 u4321" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4321-7_img" class="img u4321_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4321-7_text" class="text u4321_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4322-7" class="ax_default _默认样式 u4322" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4322-7_img" class="img u4322_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4322-7_text" class="text u4322_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4323-7" class="ax_default _默认样式 u4323" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4323-7_img" class="img u4323_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4323-7_text" class="text u4323_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4324-7" class="ax_default _默认样式 u4324" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4324-7_img" class="img u4324_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4324-7_text" class="text u4324_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4325-7" class="ax_default _默认样式 u4325" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4325-7_div" class="u4325_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4325-7_text" class="text u4325_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4326-7" class="ax_default _高亮行 u4326" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4326-7_div" class="u4326_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4316-8" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4317-8" class="ax_default u4317" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4318-8" class="ax_default _默认样式 u4318" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4318-8_img" class="img u4318_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4319-8" class="ax_default _默认样式 u4319" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4319-8_img" class="img u4319_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4320-8" class="ax_default _默认样式 u4320" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4320-8_img" class="img u4320_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4320-8_text" class="text u4320_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4321-8" class="ax_default _默认样式 u4321" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4321-8_img" class="img u4321_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4321-8_text" class="text u4321_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4322-8" class="ax_default _默认样式 u4322" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4322-8_img" class="img u4322_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4322-8_text" class="text u4322_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4323-8" class="ax_default _默认样式 u4323" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4323-8_img" class="img u4323_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4323-8_text" class="text u4323_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4324-8" class="ax_default _默认样式 u4324" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4324-8_img" class="img u4324_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4324-8_text" class="text u4324_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4325-8" class="ax_default _默认样式 u4325" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4325-8_div" class="u4325_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4325-8_text" class="text u4325_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4326-8" class="ax_default _高亮行 u4326" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4326-8_div" class="u4326_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4316-9" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4317-9" class="ax_default u4317" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4318-9" class="ax_default _默认样式 u4318" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4318-9_img" class="img u4318_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4319-9" class="ax_default _默认样式 u4319" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4319-9_img" class="img u4319_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4320-9" class="ax_default _默认样式 u4320" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4320-9_img" class="img u4320_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4320-9_text" class="text u4320_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4321-9" class="ax_default _默认样式 u4321" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4321-9_img" class="img u4321_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4321-9_text" class="text u4321_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4322-9" class="ax_default _默认样式 u4322" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4322-9_img" class="img u4322_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4322-9_text" class="text u4322_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4323-9" class="ax_default _默认样式 u4323" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4323-9_img" class="img u4323_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4323-9_text" class="text u4323_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4324-9" class="ax_default _默认样式 u4324" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4324-9_img" class="img u4324_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4324-9_text" class="text u4324_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4325-9" class="ax_default _默认样式 u4325" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4325-9_div" class="u4325_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4325-9_text" class="text u4325_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4326-9" class="ax_default _高亮行 u4326" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4326-9_div" class="u4326_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4316-10" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4317-10" class="ax_default u4317" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4318-10" class="ax_default _默认样式 u4318" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4318-10_img" class="img u4318_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4319-10" class="ax_default _默认样式 u4319" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4319-10_img" class="img u4319_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4320-10" class="ax_default _默认样式 u4320" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4320-10_img" class="img u4320_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4320-10_text" class="text u4320_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4321-10" class="ax_default _默认样式 u4321" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4321-10_img" class="img u4321_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4321-10_text" class="text u4321_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4322-10" class="ax_default _默认样式 u4322" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4322-10_img" class="img u4322_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4322-10_text" class="text u4322_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4323-10" class="ax_default _默认样式 u4323" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4323-10_img" class="img u4323_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4323-10_text" class="text u4323_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4324-10" class="ax_default _默认样式 u4324" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4324-10_img" class="img u4324_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4324-10_text" class="text u4324_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4325-10" class="ax_default _默认样式 u4325" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4325-10_div" class="u4325_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4325-10_text" class="text u4325_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4326-10" class="ax_default _高亮行 u4326" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4326-10_div" class="u4326_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 复选框 (矩形) -->
+              <div id="u4327" class="ax_default _默认样式" data-label="复选框">
+                <div id="u4327_div" class=""></div>
+                <div id="u4327_text" class="text ">
+                  <p><span></span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 输入框 (组 合) -->
+            <div id="u4328" class="ax_default" data-label="输入框" data-left="430" data-top="0" data-width="200" data-height="35">
+
+              <!-- 边框 (矩形) -->
+              <div id="u4329" class="ax_default _默认样式" data-label="边框">
+                <div id="u4329_div" class=""></div>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u4330" class="ax_default _默认样式" data-label="输入框">
+                <input id="u4330_input" type="text" value="" maxlength="20"/>
+              </div>
+
+              <!-- 清除 (矩形) -->
+              <div id="u4331" class="ax_default _默认样式 ax_default_hidden" data-label="清除" style="display:none; visibility: hidden">
+                <div id="u4331_div" class=""></div>
+                <div id="u4331_text" class="text ">
+                  <p><span></span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4332" class="ax_default _默认样式">
+              <div id="u4332_div" class=""></div>
+              <div id="u4332_text" class="text ">
+                <p><span style="font-family:'FontAwesome';"></span><span style="font-family:'Helvetica';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">重置</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4333" class="ax_default _默认样式">
+              <div id="u4333_div" class=""></div>
+              <div id="u4333_text" class="text ">
+                <p><span style="font-family:'FontAwesome';font-weight:400;font-style:normal;"></span><span style="font-family:'微软雅黑';font-weight:400;"> </span><span style="font-family:'微软雅黑';font-weight:400;">查询</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u4300_state1" class="panel_state" data-label="产品入库" style="visibility: hidden;">
+          <div id="u4300_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (组 合) -->
+            <div id="u4334" class="ax_default" data-left="250" data-top="590" data-width="560" data-height="35">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u4335" class="ax_default _默认样式">
+                <div id="u4335_div" class=""></div>
+                <div id="u4335_text" class="text ">
+                  <p><span style="font-family:'微软雅黑';font-weight:400;">下一页</span><span style="font-family:'FontAwesome';font-weight:400;"> </span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u4336" class="ax_default _默认样式">
+                <div id="u4336_div" class=""></div>
+                <div id="u4336_text" class="text ">
+                  <p><span style="font-family:'FontAwesome';font-weight:400;"> 上</span><span style="font-family:'微软雅黑';font-weight:400;">一页</span><span style="font-family:'FontAwesome';font-weight:400;"> </span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u4337" class="ax_default _默认样式">
+                <div id="u4337_div" class=""></div>
+                <div id="u4337_text" class="text ">
+                  <p><span>尾页</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u4338" class="ax_default _默认样式">
+                <div id="u4338_div" class=""></div>
+                <div id="u4338_text" class="text ">
+                  <p><span>首页</span></p>
+                </div>
+              </div>
+
+              <!-- 页码 (矩形) -->
+              <div id="u4339" class="ax_default _默认样式" data-label="页码">
+                <div id="u4339_div" class=""></div>
+                <div id="u4339_text" class="text ">
+                  <p><span>共 400 条记录 第 1 / 80 页 </span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 数据表格 (组 合) -->
+            <div id="u4340" class="ax_default" data-label="数据表格" data-left="0" data-top="45" data-width="810" data-height="535">
+
+              <!-- Unnamed (表格) -->
+              <div id="u4341" class="ax_default">
+
+                <!-- Unnamed (单元格) -->
+                <div id="u4342" class="ax_default _默认样式">
+                  <img id="u4342_img" class="img " src="images/样品送检/u903.png"/>
+                </div>
+
+                <!-- Unnamed (单元格) -->
+                <div id="u4343" class="ax_default _默认样式">
+                  <img id="u4343_img" class="img " src="images/样品送检/u903.png"/>
+                  <div id="u4343_text" class="text ">
+                    <p><span>序号</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (单元格) -->
+                <div id="u4344" class="ax_default _默认样式">
+                  <img id="u4344_img" class="img " src="images/库存管理/u4311.png"/>
+                  <div id="u4344_text" class="text ">
+                    <p><span>货物名称</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (单元格) -->
+                <div id="u4345" class="ax_default _默认样式">
+                  <img id="u4345_img" class="img " src="images/库存管理/u4311.png"/>
+                  <div id="u4345_text" class="text ">
+                    <p><span>货物型号</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (单元格) -->
+                <div id="u4346" class="ax_default _默认样式">
+                  <img id="u4346_img" class="img " src="images/库存管理/u4311.png"/>
+                  <div id="u4346_text" class="text ">
+                    <p><span>批号</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (单元格) -->
+                <div id="u4347" class="ax_default _默认样式">
+                  <img id="u4347_img" class="img " src="images/库存管理/u4311.png"/>
+                  <div id="u4347_text" class="text ">
+                    <p><span>数量</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (单元格) -->
+                <div id="u4348" class="ax_default _默认样式">
+                  <img id="u4348_img" class="img " src="images/库存管理/u4315.png"/>
+                  <div id="u4348_text" class="text ">
+                    <p><span>重量</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Table (中继器) -->
+              <div id="u4349" class="ax_default" data-label="Table">
+                <script id="u4349_script" type="axure-repeater-template" data-label="Table">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4350" class="ax_default u4350">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4351" class="ax_default _默认样式 u4351">
+                      <img id="u4351_img" class="img u4351_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4352" class="ax_default _默认样式 u4352" data-label="序号">
+                      <img id="u4352_img" class="img u4352_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4353" class="ax_default _默认样式 u4353" data-label="原材料名称">
+                      <img id="u4353_img" class="img u4353_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4353_text" class="text u4353_text">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4354" class="ax_default _默认样式 u4354">
+                      <img id="u4354_img" class="img u4354_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4354_text" class="text u4354_text">
+                        <p><span>锂电池一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4355" class="ax_default _默认样式 u4355" data-label="批号">
+                      <img id="u4355_img" class="img u4355_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4355_text" class="text u4355_text">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4356" class="ax_default _默认样式 u4356">
+                      <img id="u4356_img" class="img u4356_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4356_text" class="text u4356_text">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4357" class="ax_default _默认样式 u4357">
+                      <img id="u4357_img" class="img u4357_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4357_text" class="text u4357_text">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4358" class="ax_default _默认样式 u4358" data-label="复选框">
+                    <div id="u4358_div" class="u4358_div"></div>
+                    <div id="u4358_text" class="text u4358_text">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4359" class="ax_default _高亮行 ax_default_hidden u4359" data-label="表格高亮行" style="display:none; visibility: hidden">
+                    <div id="u4359_div" class="u4359_div"></div>
+                  </div>
+                </script>
+                <div id="u4349-1" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4350-1" class="ax_default u4350" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4351-1" class="ax_default _默认样式 u4351" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4351-1_img" class="img u4351_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4352-1" class="ax_default _默认样式 u4352" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4352-1_img" class="img u4352_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4353-1" class="ax_default _默认样式 u4353" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4353-1_img" class="img u4353_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4353-1_text" class="text u4353_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4354-1" class="ax_default _默认样式 u4354" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4354-1_img" class="img u4354_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4354-1_text" class="text u4354_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>锂电池一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4355-1" class="ax_default _默认样式 u4355" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4355-1_img" class="img u4355_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4355-1_text" class="text u4355_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4356-1" class="ax_default _默认样式 u4356" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4356-1_img" class="img u4356_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4356-1_text" class="text u4356_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4357-1" class="ax_default _默认样式 u4357" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4357-1_img" class="img u4357_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4357-1_text" class="text u4357_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4358-1" class="ax_default _默认样式 u4358" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4358-1_div" class="u4358_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4358-1_text" class="text u4358_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4359-1" class="ax_default _高亮行 u4359" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4359-1_div" class="u4359_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4349-2" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4350-2" class="ax_default u4350" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4351-2" class="ax_default _默认样式 u4351" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4351-2_img" class="img u4351_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4352-2" class="ax_default _默认样式 u4352" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4352-2_img" class="img u4352_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4353-2" class="ax_default _默认样式 u4353" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4353-2_img" class="img u4353_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4353-2_text" class="text u4353_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4354-2" class="ax_default _默认样式 u4354" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4354-2_img" class="img u4354_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4354-2_text" class="text u4354_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>锂电池一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4355-2" class="ax_default _默认样式 u4355" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4355-2_img" class="img u4355_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4355-2_text" class="text u4355_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4356-2" class="ax_default _默认样式 u4356" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4356-2_img" class="img u4356_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4356-2_text" class="text u4356_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4357-2" class="ax_default _默认样式 u4357" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4357-2_img" class="img u4357_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4357-2_text" class="text u4357_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4358-2" class="ax_default _默认样式 u4358" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4358-2_div" class="u4358_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4358-2_text" class="text u4358_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4359-2" class="ax_default _高亮行 u4359" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4359-2_div" class="u4359_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4349-3" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4350-3" class="ax_default u4350" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4351-3" class="ax_default _默认样式 u4351" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4351-3_img" class="img u4351_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4352-3" class="ax_default _默认样式 u4352" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4352-3_img" class="img u4352_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4353-3" class="ax_default _默认样式 u4353" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4353-3_img" class="img u4353_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4353-3_text" class="text u4353_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4354-3" class="ax_default _默认样式 u4354" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4354-3_img" class="img u4354_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4354-3_text" class="text u4354_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>锂电池一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4355-3" class="ax_default _默认样式 u4355" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4355-3_img" class="img u4355_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4355-3_text" class="text u4355_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4356-3" class="ax_default _默认样式 u4356" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4356-3_img" class="img u4356_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4356-3_text" class="text u4356_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4357-3" class="ax_default _默认样式 u4357" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4357-3_img" class="img u4357_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4357-3_text" class="text u4357_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4358-3" class="ax_default _默认样式 u4358" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4358-3_div" class="u4358_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4358-3_text" class="text u4358_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4359-3" class="ax_default _高亮行 u4359" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4359-3_div" class="u4359_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4349-4" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4350-4" class="ax_default u4350" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4351-4" class="ax_default _默认样式 u4351" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4351-4_img" class="img u4351_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4352-4" class="ax_default _默认样式 u4352" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4352-4_img" class="img u4352_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4353-4" class="ax_default _默认样式 u4353" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4353-4_img" class="img u4353_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4353-4_text" class="text u4353_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4354-4" class="ax_default _默认样式 u4354" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4354-4_img" class="img u4354_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4354-4_text" class="text u4354_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>锂电池一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4355-4" class="ax_default _默认样式 u4355" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4355-4_img" class="img u4355_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4355-4_text" class="text u4355_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4356-4" class="ax_default _默认样式 u4356" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4356-4_img" class="img u4356_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4356-4_text" class="text u4356_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4357-4" class="ax_default _默认样式 u4357" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4357-4_img" class="img u4357_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4357-4_text" class="text u4357_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4358-4" class="ax_default _默认样式 u4358" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4358-4_div" class="u4358_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4358-4_text" class="text u4358_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4359-4" class="ax_default _高亮行 u4359" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4359-4_div" class="u4359_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4349-5" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4350-5" class="ax_default u4350" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4351-5" class="ax_default _默认样式 u4351" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4351-5_img" class="img u4351_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4352-5" class="ax_default _默认样式 u4352" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4352-5_img" class="img u4352_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4353-5" class="ax_default _默认样式 u4353" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4353-5_img" class="img u4353_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4353-5_text" class="text u4353_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4354-5" class="ax_default _默认样式 u4354" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4354-5_img" class="img u4354_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4354-5_text" class="text u4354_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>锂电池一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4355-5" class="ax_default _默认样式 u4355" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4355-5_img" class="img u4355_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4355-5_text" class="text u4355_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4356-5" class="ax_default _默认样式 u4356" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4356-5_img" class="img u4356_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4356-5_text" class="text u4356_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4357-5" class="ax_default _默认样式 u4357" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4357-5_img" class="img u4357_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4357-5_text" class="text u4357_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4358-5" class="ax_default _默认样式 u4358" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4358-5_div" class="u4358_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4358-5_text" class="text u4358_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4359-5" class="ax_default _高亮行 u4359" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4359-5_div" class="u4359_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4349-6" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4350-6" class="ax_default u4350" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4351-6" class="ax_default _默认样式 u4351" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4351-6_img" class="img u4351_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4352-6" class="ax_default _默认样式 u4352" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4352-6_img" class="img u4352_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4353-6" class="ax_default _默认样式 u4353" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4353-6_img" class="img u4353_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4353-6_text" class="text u4353_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4354-6" class="ax_default _默认样式 u4354" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4354-6_img" class="img u4354_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4354-6_text" class="text u4354_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>锂电池一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4355-6" class="ax_default _默认样式 u4355" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4355-6_img" class="img u4355_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4355-6_text" class="text u4355_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4356-6" class="ax_default _默认样式 u4356" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4356-6_img" class="img u4356_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4356-6_text" class="text u4356_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4357-6" class="ax_default _默认样式 u4357" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4357-6_img" class="img u4357_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4357-6_text" class="text u4357_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4358-6" class="ax_default _默认样式 u4358" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4358-6_div" class="u4358_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4358-6_text" class="text u4358_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4359-6" class="ax_default _高亮行 u4359" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4359-6_div" class="u4359_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4349-7" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4350-7" class="ax_default u4350" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4351-7" class="ax_default _默认样式 u4351" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4351-7_img" class="img u4351_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4352-7" class="ax_default _默认样式 u4352" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4352-7_img" class="img u4352_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4353-7" class="ax_default _默认样式 u4353" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4353-7_img" class="img u4353_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4353-7_text" class="text u4353_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4354-7" class="ax_default _默认样式 u4354" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4354-7_img" class="img u4354_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4354-7_text" class="text u4354_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>锂电池一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4355-7" class="ax_default _默认样式 u4355" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4355-7_img" class="img u4355_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4355-7_text" class="text u4355_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4356-7" class="ax_default _默认样式 u4356" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4356-7_img" class="img u4356_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4356-7_text" class="text u4356_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4357-7" class="ax_default _默认样式 u4357" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4357-7_img" class="img u4357_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4357-7_text" class="text u4357_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4358-7" class="ax_default _默认样式 u4358" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4358-7_div" class="u4358_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4358-7_text" class="text u4358_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4359-7" class="ax_default _高亮行 u4359" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4359-7_div" class="u4359_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4349-8" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4350-8" class="ax_default u4350" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4351-8" class="ax_default _默认样式 u4351" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4351-8_img" class="img u4351_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4352-8" class="ax_default _默认样式 u4352" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4352-8_img" class="img u4352_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4353-8" class="ax_default _默认样式 u4353" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4353-8_img" class="img u4353_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4353-8_text" class="text u4353_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4354-8" class="ax_default _默认样式 u4354" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4354-8_img" class="img u4354_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4354-8_text" class="text u4354_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>锂电池一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4355-8" class="ax_default _默认样式 u4355" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4355-8_img" class="img u4355_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4355-8_text" class="text u4355_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4356-8" class="ax_default _默认样式 u4356" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4356-8_img" class="img u4356_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4356-8_text" class="text u4356_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4357-8" class="ax_default _默认样式 u4357" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4357-8_img" class="img u4357_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4357-8_text" class="text u4357_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4358-8" class="ax_default _默认样式 u4358" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4358-8_div" class="u4358_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4358-8_text" class="text u4358_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4359-8" class="ax_default _高亮行 u4359" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4359-8_div" class="u4359_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4349-9" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4350-9" class="ax_default u4350" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4351-9" class="ax_default _默认样式 u4351" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4351-9_img" class="img u4351_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4352-9" class="ax_default _默认样式 u4352" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4352-9_img" class="img u4352_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4353-9" class="ax_default _默认样式 u4353" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4353-9_img" class="img u4353_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4353-9_text" class="text u4353_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4354-9" class="ax_default _默认样式 u4354" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4354-9_img" class="img u4354_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4354-9_text" class="text u4354_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>锂电池一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4355-9" class="ax_default _默认样式 u4355" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4355-9_img" class="img u4355_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4355-9_text" class="text u4355_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4356-9" class="ax_default _默认样式 u4356" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4356-9_img" class="img u4356_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4356-9_text" class="text u4356_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4357-9" class="ax_default _默认样式 u4357" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4357-9_img" class="img u4357_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4357-9_text" class="text u4357_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4358-9" class="ax_default _默认样式 u4358" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4358-9_div" class="u4358_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4358-9_text" class="text u4358_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4359-9" class="ax_default _高亮行 u4359" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4359-9_div" class="u4359_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+                <div id="u4349-10" class="" style="width: 810px; height: 49px;">
+
+                  <!-- Unnamed (表格) -->
+                  <div id="u4350-10" class="ax_default u4350" style="visibility: inherit">
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4351-10" class="ax_default _默认样式 u4351" style="width: 80px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                      <img id="u4351-10_img" class="img u4351_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 序号 (单元格) -->
+                    <div id="u4352-10" class="ax_default _默认样式 u4352" data-label="序号" style="width: 80px; height: 50px; left: 80px; top: 0px;visibility: inherit">
+                      <img id="u4352-10_img" class="img u4352_img" src="images/样品送检/序号_u917.png"/>
+                    </div>
+
+                    <!-- 原材料名称 (单元格) -->
+                    <div id="u4353-10" class="ax_default _默认样式 u4353" data-label="原材料名称" style="width: 130px; height: 50px; left: 160px; top: 0px;visibility: inherit">
+                      <img id="u4353-10_img" class="img u4353_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4353-10_text" class="text u4353_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>钴锰矿</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4354-10" class="ax_default _默认样式 u4354" style="width: 130px; height: 50px; left: 290px; top: 0px;visibility: inherit">
+                      <img id="u4354-10_img" class="img u4354_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4354-10_text" class="text u4354_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>锂电池一号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- 批号 (单元格) -->
+                    <div id="u4355-10" class="ax_default _默认样式 u4355" data-label="批号" style="width: 130px; height: 50px; left: 420px; top: 0px;visibility: inherit">
+                      <img id="u4355-10_img" class="img u4355_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4355-10_text" class="text u4355_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>批号</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4356-10" class="ax_default _默认样式 u4356" style="width: 130px; height: 50px; left: 550px; top: 0px;visibility: inherit">
+                      <img id="u4356-10_img" class="img u4356_img" src="images/库存管理/原材料名称_u4320.png"/>
+                      <div id="u4356-10_text" class="text u4356_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>数量</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (单元格) -->
+                    <div id="u4357-10" class="ax_default _默认样式 u4357" style="width: 130px; height: 50px; left: 680px; top: 0px;visibility: inherit">
+                      <img id="u4357-10_img" class="img u4357_img" src="images/库存管理/u4324.png"/>
+                      <div id="u4357-10_text" class="text u4357_text" style="position: absolute;left: 15px;top: 16px;width: 113px;visibility: inherit">
+                        <p><span>重量</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 复选框 (矩形) -->
+                  <div id="u4358-10" class="ax_default _默认样式 u4358" data-label="复选框" style="width: 18px; height: 18px; left: 29px; top: 16px;visibility: inherit">
+                    <div id="u4358-10_div" class="u4358_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                    <div id="u4358-10_text" class="text u4358_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- 表格高亮行 (矩形) -->
+                  <div id="u4359-10" class="ax_default _高亮行 u4359" data-label="表格高亮行" style="width: 810px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+                    <div id="u4359-10_div" class="u4359_div" style="width: 810px; height: 50px;visibility: inherit"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 复选框 (矩形) -->
+              <div id="u4360" class="ax_default _默认样式" data-label="复选框">
+                <div id="u4360_div" class=""></div>
+                <div id="u4360_text" class="text ">
+                  <p><span></span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 输入框 (组 合) -->
+            <div id="u4361" class="ax_default" data-label="输入框" data-left="430" data-top="0" data-width="200" data-height="35">
+
+              <!-- 边框 (矩形) -->
+              <div id="u4362" class="ax_default _默认样式" data-label="边框">
+                <div id="u4362_div" class=""></div>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u4363" class="ax_default _默认样式" data-label="输入框">
+                <input id="u4363_input" type="text" value="" maxlength="20"/>
+              </div>
+
+              <!-- 清除 (矩形) -->
+              <div id="u4364" class="ax_default _默认样式 ax_default_hidden" data-label="清除" style="display:none; visibility: hidden">
+                <div id="u4364_div" class=""></div>
+                <div id="u4364_text" class="text ">
+                  <p><span></span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4365" class="ax_default _默认样式">
+              <div id="u4365_div" class=""></div>
+              <div id="u4365_text" class="text ">
+                <p><span style="font-family:'FontAwesome';"></span><span style="font-family:'Helvetica';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">重置</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u4366" class="ax_default _默认样式">
+              <div id="u4366_div" class=""></div>
+              <div id="u4366_text" class="text ">
+                <p><span style="font-family:'FontAwesome';font-weight:400;font-style:normal;"></span><span style="font-family:'微软雅黑';font-weight:400;"> </span><span style="font-family:'微软雅黑';font-weight:400;">查询</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
