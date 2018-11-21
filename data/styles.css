@@ -60,7 +60,7 @@
   text-align:left;
 }
 ._文本链接 {
-  color:#3478F7;
+  color:#0079FE;
 }
 ._鼠标悬停文本链接时 {
 }
@@ -157,4 +157,7 @@
   font-weight:400;
   font-style:normal;
   color:#FFFFFF;
+}
+._标签选项 {
+  color:#999999;
 }
