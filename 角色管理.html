@@ -1,0 +1,3198 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>角色管理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/角色管理/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/角色管理/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 成员管理 (动态面板) -->
+      <div id="u6735" class="ax_default ax_default_hidden" data-label="成员管理" style="display:none; visibility: hidden">
+        <div id="u6735_state0" class="panel_state" data-label="编辑数据" style="">
+          <div id="u6735_state0_content" class="panel_state_content">
+
+            <!-- 气泡确认框 (动态面板) -->
+            <div id="u6736" class="ax_default ax_default_hidden" data-label="气泡确认框" style="display:none; visibility: hidden">
+              <div id="u6736_state0" class="panel_state" data-label="State1" style="">
+                <div id="u6736_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (气泡) -->
+                  <div id="u6737" class="ax_default _默认样式">
+                    <img id="u6737_img" class="img " src="images/常用组件样式/u266.png"/>
+                  </div>
+
+                  <!-- Unnamed (矩形) -->
+                  <div id="u6738" class="ax_default _默认样式">
+                    <div id="u6738_div" class=""></div>
+                    <div id="u6738_text" class="text ">
+                      <p><span style="font-family:'FontAwesome';font-weight:400;font-style:normal;color:#FF992F;"></span><span style="font-family:'Helvetica';font-weight:400;font-style:normal;color:#999999;"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;font-style:normal;color:#666666;">你确定取消这个任务吗？</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (矩形) -->
+                  <div id="u6739" class="ax_default button">
+                    <div id="u6739_div" class=""></div>
+                    <div id="u6739_text" class="text ">
+                      <p><span>确定</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (矩形) -->
+                  <div id="u6740" class="ax_default button">
+                    <div id="u6740_div" class=""></div>
+                    <div id="u6740_text" class="text ">
+                      <p><span>再想想</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 新增数据弹出框页头和底 (组 合) -->
+            <div id="u6741" class="ax_default" data-label="新增数据弹出框页头和底" data-left="0" data-top="0" data-width="600" data-height="600">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6742" class="ax_default _默认样式">
+                <div id="u6742_div" class=""></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6743" class="ax_default _默认样式">
+                <div id="u6743_div" class=""></div>
+                <div id="u6743_text" class="text ">
+                  <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:600;color:#666666;">成员管理</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;color:#999999;">对成员进行角色分配和取消分配</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6744" class="ax_default box_1">
+              <div id="u6744_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (动态面板) -->
+            <div id="u6745" class="ax_default">
+              <div id="u6745_state0" class="panel_state" data-label="新增提交" style="">
+                <div id="u6745_state0_content" class="panel_state_content">
+
+                  <!-- 新增 (矩形) -->
+                  <div id="u6746" class="ax_default button" data-label="新增">
+                    <div id="u6746_div" class=""></div>
+                    <div id="u6746_text" class="text ">
+                      <p><span style="font-family:'FontAwesome';"></span><span style="font-family:'Helvetica';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">确定</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 删除 (矩形) -->
+            <div id="u6747" class="ax_default button" data-label="删除">
+              <div id="u6747_div" class=""></div>
+              <div id="u6747_text" class="text ">
+                <p><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">取消</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6748" class="ax_default box_2">
+              <div id="u6748_div" class=""></div>
+              <div id="u6748_text" class="text ">
+                <p><span>未分配角色</span></p>
+              </div>
+            </div>
+
+            <!-- 未分配 (动态面板) -->
+            <div id="u6749" class="ax_default" data-label="未分配">
+              <div id="u6749_state0" class="panel_state" data-label="State1" style="">
+                <div id="u6749_state0_content" class="panel_state_content">
+
+                  <!-- 未分Table (中继器) -->
+                  <div id="u6750" class="ax_default" data-label="未分Table">
+                    <script id="u6750_script" type="axure-repeater-template" data-label="未分Table">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751" class="ax_default u6751">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752" class="ax_default _默认样式 u6752">
+                          <img id="u6752_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753" class="ax_default _默认样式 u6753" data-label="jueSeMing">
+                          <img id="u6753_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753_text" class="text u6753_text">
+                            <p><span>角色名</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754" class="ax_default _默认样式 u6754" data-label="复选框">
+                        <div id="u6754_div" class="u6754_div"></div>
+                        <div id="u6754_text" class="text u6754_text">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </script>
+                    <div id="u6750-1" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751-1" class="ax_default u6751" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752-1" class="ax_default _默认样式 u6752" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6752-1_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753-1" class="ax_default _默认样式 u6753" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6753-1_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753-1_text" class="text u6753_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>张小刚</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754-1" class="ax_default _默认样式 u6754" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6754-1_div" class="u6754_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6754-1_text" class="text u6754_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u6750-2" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751-2" class="ax_default u6751" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752-2" class="ax_default _默认样式 u6752" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6752-2_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753-2" class="ax_default _默认样式 u6753" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6753-2_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753-2_text" class="text u6753_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>李小红</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754-2" class="ax_default _默认样式 u6754" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6754-2_div" class="u6754_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6754-2_text" class="text u6754_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u6750-3" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751-3" class="ax_default u6751" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752-3" class="ax_default _默认样式 u6752" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6752-3_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753-3" class="ax_default _默认样式 u6753" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6753-3_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753-3_text" class="text u6753_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>王小明</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754-3" class="ax_default _默认样式 u6754" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6754-3_div" class="u6754_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6754-3_text" class="text u6754_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u6750-4" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751-4" class="ax_default u6751" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752-4" class="ax_default _默认样式 u6752" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6752-4_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753-4" class="ax_default _默认样式 u6753" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6753-4_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753-4_text" class="text u6753_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>周小伟</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754-4" class="ax_default _默认样式 u6754" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6754-4_div" class="u6754_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6754-4_text" class="text u6754_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u6750-5" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751-5" class="ax_default u6751" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752-5" class="ax_default _默认样式 u6752" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6752-5_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753-5" class="ax_default _默认样式 u6753" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6753-5_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753-5_text" class="text u6753_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>张小刚</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754-5" class="ax_default _默认样式 u6754" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6754-5_div" class="u6754_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6754-5_text" class="text u6754_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u6750-6" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751-6" class="ax_default u6751" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752-6" class="ax_default _默认样式 u6752" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6752-6_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753-6" class="ax_default _默认样式 u6753" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6753-6_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753-6_text" class="text u6753_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>李小红</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754-6" class="ax_default _默认样式 u6754" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6754-6_div" class="u6754_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6754-6_text" class="text u6754_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u6750-7" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751-7" class="ax_default u6751" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752-7" class="ax_default _默认样式 u6752" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6752-7_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753-7" class="ax_default _默认样式 u6753" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6753-7_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753-7_text" class="text u6753_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>王小明</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754-7" class="ax_default _默认样式 u6754" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6754-7_div" class="u6754_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6754-7_text" class="text u6754_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u6750-8" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751-8" class="ax_default u6751" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752-8" class="ax_default _默认样式 u6752" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6752-8_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753-8" class="ax_default _默认样式 u6753" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6753-8_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753-8_text" class="text u6753_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>周小伟</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754-8" class="ax_default _默认样式 u6754" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6754-8_div" class="u6754_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6754-8_text" class="text u6754_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u6750-9" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751-9" class="ax_default u6751" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752-9" class="ax_default _默认样式 u6752" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6752-9_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753-9" class="ax_default _默认样式 u6753" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6753-9_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753-9_text" class="text u6753_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>张小刚</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754-9" class="ax_default _默认样式 u6754" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6754-9_div" class="u6754_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6754-9_text" class="text u6754_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u6750-10" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751-10" class="ax_default u6751" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752-10" class="ax_default _默认样式 u6752" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6752-10_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753-10" class="ax_default _默认样式 u6753" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6753-10_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753-10_text" class="text u6753_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>李小红</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754-10" class="ax_default _默认样式 u6754" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6754-10_div" class="u6754_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6754-10_text" class="text u6754_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u6750-11" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751-11" class="ax_default u6751" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752-11" class="ax_default _默认样式 u6752" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6752-11_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753-11" class="ax_default _默认样式 u6753" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6753-11_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753-11_text" class="text u6753_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>王小明</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754-11" class="ax_default _默认样式 u6754" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6754-11_div" class="u6754_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6754-11_text" class="text u6754_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u6750-12" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751-12" class="ax_default u6751" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752-12" class="ax_default _默认样式 u6752" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6752-12_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753-12" class="ax_default _默认样式 u6753" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6753-12_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753-12_text" class="text u6753_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>周小伟</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754-12" class="ax_default _默认样式 u6754" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6754-12_div" class="u6754_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6754-12_text" class="text u6754_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u6750-13" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751-13" class="ax_default u6751" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752-13" class="ax_default _默认样式 u6752" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6752-13_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753-13" class="ax_default _默认样式 u6753" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6753-13_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753-13_text" class="text u6753_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>张小刚</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754-13" class="ax_default _默认样式 u6754" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6754-13_div" class="u6754_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6754-13_text" class="text u6754_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="u6750-14" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6751-14" class="ax_default u6751" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6752-14" class="ax_default _默认样式 u6752" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6752-14_img" class="img u6752_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6753-14" class="ax_default _默认样式 u6753" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6753-14_img" class="img u6753_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6753-14_text" class="text u6753_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>李小红</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6754-14" class="ax_default _默认样式 u6754" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6754-14_div" class="u6754_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6754-14_text" class="text u6754_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 删除 (矩形) -->
+            <div id="u6755" class="ax_default button" data-label="删除">
+              <div id="u6755_div" class=""></div>
+              <div id="u6755_text" class="text ">
+                <p><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">撤回</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6756" class="ax_default box_2">
+              <div id="u6756_div" class=""></div>
+              <div id="u6756_text" class="text ">
+                <p><span>已分配角色</span></p>
+              </div>
+            </div>
+
+            <!-- 删除 (矩形) -->
+            <div id="u6757" class="ax_default button" data-label="删除">
+              <div id="u6757_div" class=""></div>
+              <div id="u6757_text" class="text ">
+                <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">分配</span><span style="font-family:'FontAwesome';">&nbsp; </span></p>
+              </div>
+            </div>
+
+            <!-- 已分配 (动态面板) -->
+            <div id="u6758" class="ax_default" data-label="已分配">
+              <div id="u6758_state0" class="panel_state" data-label="State1" style="">
+                <div id="u6758_state0_content" class="panel_state_content">
+
+                  <!-- 已分Table (中继器) -->
+                  <div id="u6759" class="ax_default" data-label="已分Table">
+                    <script id="u6759_script" type="axure-repeater-template" data-label="已分Table">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6760" class="ax_default u6760">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6761" class="ax_default _默认样式 u6761">
+                          <img id="u6761_img" class="img u6761_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6762" class="ax_default _默认样式 u6762" data-label="jueSeMing">
+                          <img id="u6762_img" class="img u6762_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6762_text" class="text u6762_text">
+                            <p><span>角色名</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6763" class="ax_default _默认样式 u6763" data-label="复选框">
+                        <div id="u6763_div" class="u6763_div"></div>
+                        <div id="u6763_text" class="text u6763_text">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </script>
+                    <div id="u6759-1" class="preeval" style="width: 220px; height: 29px;">
+
+                      <!-- Unnamed (表格) -->
+                      <div id="u6760-1" class="ax_default u6760" style="visibility: inherit">
+
+                        <!-- Unnamed (单元格) -->
+                        <div id="u6761-1" class="ax_default _默认样式 u6761" style="width: 60px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                          <img id="u6761-1_img" class="img u6761_img" src="images/角色管理/u6752.png"/>
+                        </div>
+
+                        <!-- jueSeMing (单元格) -->
+                        <div id="u6762-1" class="ax_default _默认样式 u6762" data-label="jueSeMing" style="width: 160px; height: 30px; left: 60px; top: 0px;visibility: inherit">
+                          <img id="u6762-1_img" class="img u6762_img" src="images/角色管理/jueseming_u6753.png"/>
+                          <div id="u6762-1_text" class="text u6762_text" style="position: absolute;left: 15px;top: 6px;width: 143px;visibility: inherit">
+                            <p><span>张小刚</span></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 复选框 (矩形) -->
+                      <div id="u6763-1" class="ax_default _默认样式 u6763" data-label="复选框" style="width: 18px; height: 18px; left: 21px; top: 6px;visibility: inherit">
+                        <div id="u6763-1_div" class="u6763_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+                        <div id="u6763-1_text" class="text u6763_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                          <p><span></span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 设置审批细节气泡卡片 (动态面板) -->
+            <div id="u6764" class="ax_default ax_default_hidden" data-label="设置审批细节气泡卡片" style="display:none; visibility: hidden">
+              <div id="u6764_state0" class="panel_state" data-label="编辑数据" style="">
+                <div id="u6764_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (气泡) -->
+                  <div id="u6765" class="ax_default _默认样式">
+                    <img id="u6765_img" class="img " src="images/常用组件样式/u314.png"/>
+                  </div>
+
+                  <!-- Unnamed (矩形) -->
+                  <div id="u6766" class="ax_default _默认样式">
+                    <div id="u6766_div" class=""></div>
+                    <div id="u6766_text" class="text ">
+                      <p><span>设置审批细节</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (矩形) -->
+                  <div id="u6767" class="ax_default _默认样式">
+                    <div id="u6767_div" class=""></div>
+                    <div id="u6767_text" class="text ">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (矩形) -->
+                  <div id="u6768" class="ax_default _默认样式 disabled">
+                    <div id="u6768_div" class="disabled"></div>
+                    <div id="u6768_text" class="text ">
+                      <p><span>确认</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (矩形) -->
+                  <div id="u6769" class="ax_default _默认样式">
+                    <div id="u6769_div" class=""></div>
+                    <div id="u6769_text" class="text ">
+                      <p><span>取消</span></p>
+                    </div>
+                  </div>
+
+                  <!-- 常用下拉选择器 (动态面板) -->
+                  <div id="u6770" class="ax_default" data-label="常用下拉选择器">
+                    <div id="u6770_state0" class="panel_state" data-label="State1" style="">
+                      <div id="u6770_state0_content" class="panel_state_content">
+
+                        <!-- 下拉菜单 (动态面板) -->
+                        <div id="u6771" class="ax_default ax_default_hidden" data-label="下拉菜单" style="display:none; visibility: hidden">
+                          <div id="u6771_state0" class="panel_state" data-label="State1" style="">
+                            <div id="u6771_state0_content" class="panel_state_content">
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u6772" class="ax_default _默认样式">
+                                <div id="u6772_div" class=""></div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u6773" class="ax_default _默认样式" selectiongroup="下拉选项组1">
+                                <div id="u6773_div" class=""></div>
+                                <div id="u6773_text" class="text ">
+                                  <p><span>送审流程一</span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u6774" class="ax_default _默认样式" selectiongroup="下拉选项组1">
+                                <div id="u6774_div" class=""></div>
+                                <div id="u6774_text" class="text ">
+                                  <p><span>送审流程二</span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u6775" class="ax_default _默认样式" selectiongroup="下拉选项组1">
+                                <div id="u6775_div" class=""></div>
+                                <div id="u6775_text" class="text ">
+                                  <p><span>送审流程三</span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u6776" class="ax_default _默认样式" selectiongroup="下拉选项组1">
+                                <div id="u6776_div" class=""></div>
+                                <div id="u6776_text" class="text ">
+                                  <p><span>送审流程四</span></p>
+                                </div>
+                              </div>
+
+                              <!-- Unnamed (矩形) -->
+                              <div id="u6777" class="ax_default _默认样式" selectiongroup="下拉选项组1">
+                                <div id="u6777_div" class=""></div>
+                                <div id="u6777_text" class="text ">
+                                  <p><span>送审流程五</span></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (矩形) -->
+                        <div id="u6778" class="ax_default _默认样式">
+                          <div id="u6778_div" class=""></div>
+                          <div id="u6778_text" class="text ">
+                            <p><span></span></p>
+                          </div>
+                        </div>
+
+                        <!-- 选择框 (矩形) -->
+                        <div id="u6779" class="ax_default _默认样式" data-label="选择框">
+                          <img id="u6779_img" class="img " src="images/常用组件样式/选择框_u328.png"/>
+                          <div id="u6779_text" class="text ">
+                            <p><span>选择送审流程</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 开关 (动态面板) -->
+                  <div id="u6780" class="ax_default" data-label="开关">
+                    <div id="u6780_state0" class="panel_state" data-label="State1" style="">
+                      <div id="u6780_state0_content" class="panel_state_content">
+
+                        <!-- 背景 (矩形) -->
+                        <div id="u6781" class="ax_default _默认样式" data-label="背景">
+                          <div id="u6781_div" class=""></div>
+                        </div>
+
+                        <!-- 圆 (椭圆形) -->
+                        <div id="u6782" class="ax_default _默认样式" data-label="圆">
+                          <img id="u6782_img" class="img " src="images/常用组件样式/圆_u331.png"/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (矩形) -->
+                  <div id="u6783" class="ax_default label">
+                    <div id="u6783_div" class=""></div>
+                    <div id="u6783_text" class="text ">
+                      <p><span>是否紧急</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 确认删除对话框 (动态面板) -->
+      <div id="u6784" class="ax_default ax_default_hidden" data-label="确认删除对话框" style="display:none; visibility: hidden">
+        <div id="u6784_state0" class="panel_state" data-label="对话框标题" style="">
+          <div id="u6784_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6785" class="ax_default _默认样式">
+              <div id="u6785_div" class=""></div>
+              <div id="u6785_text" class="text ">
+                <p></p><p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6786" class="ax_default _默认样式">
+              <div id="u6786_div" class=""></div>
+              <div id="u6786_text" class="text ">
+                <p><span>该操作</span><span style="font-size:12px;">无法撤销，请确定是否删除所选择的数据</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6787" class="ax_default _默认样式">
+              <div id="u6787_div" class=""></div>
+              <div id="u6787_text" class="text ">
+                <p><span>确认删除？</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6788" class="ax_default _默认样式" title="关闭">
+              <div id="u6788_div" class=""></div>
+              <div id="u6788_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (组 合) -->
+            <div id="u6789" class="ax_default" data-left="0" data-top="170" data-width="450" data-height="60">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6790" class="ax_default _默认样式">
+                <div id="u6790_div" class=""></div>
+              </div>
+
+              <!-- Unnamed (组 合) -->
+              <div id="u6791" class="ax_default" data-left="261" data-top="185" data-width="170" data-height="30">
+
+                <!-- Unnamed (组 合) -->
+                <div id="u6792" class="ax_default" data-left="261" data-top="185" data-width="170" data-height="30">
+
+                  <!-- Unnamed (矩形) -->
+                  <div id="u6793" class="ax_default _默认样式">
+                    <div id="u6793_div" class=""></div>
+                    <div id="u6793_text" class="text ">
+                      <p><span>取消</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (矩形) -->
+                  <div id="u6794" class="ax_default _默认样式">
+                    <div id="u6794_div" class=""></div>
+                    <div id="u6794_text" class="text ">
+                      <p><span>确定</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u6795" class="ax_default" data-left="570" data-top="740" data-width="560" data-height="35">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6796" class="ax_default button">
+          <div id="u6796_div" class=""></div>
+          <div id="u6796_text" class="text ">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">下一页</span><span style="font-family:'FontAwesome';font-weight:400;"> </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6797" class="ax_default button">
+          <div id="u6797_div" class=""></div>
+          <div id="u6797_text" class="text ">
+            <p><span style="font-family:'FontAwesome';font-weight:400;"> 上</span><span style="font-family:'微软雅黑';font-weight:400;">一页</span><span style="font-family:'FontAwesome';font-weight:400;"> </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6798" class="ax_default button">
+          <div id="u6798_div" class=""></div>
+          <div id="u6798_text" class="text ">
+            <p><span>尾页</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6799" class="ax_default button">
+          <div id="u6799_div" class=""></div>
+          <div id="u6799_text" class="text ">
+            <p><span>首页</span></p>
+          </div>
+        </div>
+
+        <!-- 页码 (矩形) -->
+        <div id="u6800" class="ax_default _默认样式" data-label="页码">
+          <div id="u6800_div" class=""></div>
+          <div id="u6800_text" class="text ">
+            <p><span>共 400 条记录 第 1 / 80 页 </span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 输入框 (组 合) -->
+      <div id="u6801" class="ax_default" data-label="输入框" data-left="750" data-top="150" data-width="200" data-height="35">
+
+        <!-- 边框 (矩形) -->
+        <div id="u6802" class="ax_default _默认样式" data-label="边框">
+          <div id="u6802_div" class=""></div>
+        </div>
+
+        <!-- 输入框 (文本框) -->
+        <div id="u6803" class="ax_default _默认样式" data-label="输入框">
+          <input id="u6803_input" type="text" value="" maxlength="20"/>
+        </div>
+
+        <!-- 清除 (矩形) -->
+        <div id="u6804" class="ax_default _默认样式 ax_default_hidden" data-label="清除" style="display:none; visibility: hidden">
+          <div id="u6804_div" class=""></div>
+          <div id="u6804_text" class="text ">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 删除 (矩形) -->
+      <div id="u6805" class="ax_default button" data-label="删除">
+        <div id="u6805_div" class=""></div>
+        <div id="u6805_text" class="text ">
+          <p><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">删除</span></p>
+        </div>
+      </div>
+
+      <!-- 重置 (矩形) -->
+      <div id="u6806" class="ax_default button" data-label="重置">
+        <div id="u6806_div" class=""></div>
+        <div id="u6806_text" class="text ">
+          <p><span style="font-family:'FontAwesome';"></span><span style="font-family:'Helvetica';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">重置</span></p>
+        </div>
+      </div>
+
+      <!-- 查询 (矩形) -->
+      <div id="u6807" class="ax_default button" data-label="查询">
+        <div id="u6807_div" class=""></div>
+        <div id="u6807_text" class="text ">
+          <p><span style="font-family:'FontAwesome';"></span><span style="font-family:'Helvetica';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">查询</span></p>
+        </div>
+      </div>
+
+      <!-- 新增 (矩形) -->
+      <div id="u6808" class="ax_default button" data-label="新增">
+        <div id="u6808_div" class=""></div>
+        <div id="u6808_text" class="text ">
+          <p><span style="font-family:'FontAwesome';"></span><span style="font-family:'Helvetica';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">新增</span></p>
+        </div>
+      </div>
+
+      <!-- 数据表格 (组 合) -->
+      <div id="u6809" class="ax_default" data-label="数据表格" data-left="150" data-top="195" data-width="980" data-height="535">
+
+        <!-- Unnamed (表格) -->
+        <div id="u6810" class="ax_default">
+
+          <!-- Unnamed (单元格) -->
+          <div id="u6811" class="ax_default _默认样式">
+            <img id="u6811_img" class="img " src="images/制程检验/u1035.png"/>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u6812" class="ax_default _默认样式">
+            <img id="u6812_img" class="img " src="images/制程检验/u1035.png"/>
+            <div id="u6812_text" class="text ">
+              <p><span>序号</span><span> </span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u6813" class="ax_default _默认样式">
+            <img id="u6813_img" class="img " src="images/角色管理/u6813.png"/>
+            <div id="u6813_text" class="text ">
+              <p><span>角色名称</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u6814" class="ax_default _默认样式">
+            <img id="u6814_img" class="img " src="images/角色管理/u6814.png"/>
+            <div id="u6814_text" class="text ">
+              <p><span>描述</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单元格) -->
+          <div id="u6815" class="ax_default _默认样式">
+            <img id="u6815_img" class="img " src="images/角色管理/u6815.png"/>
+            <div id="u6815_text" class="text ">
+              <p><span>操作</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Table (中继器) -->
+        <div id="u6816" class="ax_default" data-label="Table">
+          <script id="u6816_script" type="axure-repeater-template" data-label="Table">
+
+            <!-- Unnamed (表格) -->
+            <div id="u6817" class="ax_default u6817">
+
+              <!-- xuanZe (单元格) -->
+              <div id="u6818" class="ax_default _默认样式 u6818" data-label="xuanZe">
+                <img id="u6818_img" class="img u6818_img" src="images/制程检验/xuanze_u1048.png"/>
+              </div>
+
+              <!-- xuHao (单元格) -->
+              <div id="u6819" class="ax_default _默认样式 u6819" data-label="xuHao">
+                <img id="u6819_img" class="img u6819_img" src="images/制程检验/xuanze_u1048.png"/>
+                <div id="u6819_text" class="text u6819_text">
+                  <p><span>序号</span></p>
+                </div>
+              </div>
+
+              <!-- piHao (单元格) -->
+              <div id="u6820" class="ax_default _默认样式 u6820" data-label="piHao">
+                <img id="u6820_img" class="img u6820_img" src="images/角色管理/pihao_u6820.png"/>
+                <div id="u6820_text" class="text u6820_text">
+                  <p><span>角色名称</span></p>
+                </div>
+              </div>
+
+              <!-- chuangJianRen (单元格) -->
+              <div id="u6821" class="ax_default _默认样式 u6821" data-label="chuangJianRen">
+                <img id="u6821_img" class="img u6821_img" src="images/角色管理/chuangjianren_u6821.png"/>
+                <div id="u6821_text" class="text u6821_text">
+                  <p><span>描述</span></p>
+                </div>
+              </div>
+
+              <!-- caoZuo (单元格) -->
+              <div id="u6822" class="ax_default _默认样式 u6822" data-label="caoZuo">
+                <img id="u6822_img" class="img u6822_img" src="images/角色管理/caozuo_u6822.png"/>
+                <div id="u6822_text" class="text u6822_text">
+                  <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span><a id="u6823" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">编辑</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp; </span><a id="u6824" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">删除</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6825" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">成员管理</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6826" class="link"><span style="font-family:'FontAwesome';"></span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"> 权限管理</span></a><span style="font-family:'FontAwesome';">&nbsp; </span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 复选框 (矩形) -->
+            <div id="u6827" class="ax_default _默认样式 u6827" data-label="复选框">
+              <div id="u6827_div" class="u6827_div"></div>
+              <div id="u6827_text" class="text u6827_text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- 表格高亮行 (矩形) -->
+            <div id="u6828" class="ax_default _高亮行 ax_default_hidden u6828" data-label="表格高亮行" style="display:none; visibility: hidden">
+              <div id="u6828_div" class="u6828_div"></div>
+            </div>
+
+            <!-- 描述输入框 (组 合) -->
+            <div id="u6829" class="ax_default ax_default_hidden u6829" data-label="描述输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6830" class="ax_default _默认样式 u6830" data-label="边框">
+                <img id="u6830_img" class="img u6830_img" src="images/流程管理/边框_u4634.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6831" class="ax_default _默认样式 u6831" data-label="输入框">
+                <input id="u6831_input" type="text" value="" class="u6831_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 角色名输入框 (组 合) -->
+            <div id="u6832" class="ax_default ax_default_hidden u6832" data-label="角色名输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6833" class="ax_default _默认样式 u6833" data-label="边框">
+                <img id="u6833_img" class="img u6833_img" src="images/角色管理/边框_u6833.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6834" class="ax_default _默认样式 u6834" data-label="输入框">
+                <input id="u6834_input" type="text" value="" class="u6834_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 编辑操作 (组 合) -->
+            <div id="u6835" class="ax_default ax_default_hidden u6835" data-label="编辑操作" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6836" class="ax_default box_1 u6836">
+                <div id="u6836_div" class="u6836_div"></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6837" class="ax_default _文本段落 u6837">
+                <div id="u6837_div" class="u6837_div"></div>
+                <div id="u6837_text" class="text u6837_text">
+                  <p><a id="u6838" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">取消</span></a></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6839" class="ax_default _文本段落 u6839">
+                <div id="u6839_div" class="u6839_div"></div>
+                <div id="u6839_text" class="text u6839_text">
+                  <p><a id="u6840" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">保存</span></a></p>
+                </div>
+              </div>
+            </div>
+          </script>
+          <div id="u6816-1" class="" style="width: 980px; height: 49px;">
+
+            <!-- Unnamed (表格) -->
+            <div id="u6817-1" class="ax_default u6817" style="visibility: inherit">
+
+              <!-- xuanZe (单元格) -->
+              <div id="u6818-1" class="ax_default _默认样式 u6818" data-label="xuanZe" style="width: 100px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                <img id="u6818-1_img" class="img u6818_img" src="images/制程检验/xuanze_u1048.png"/>
+              </div>
+
+              <!-- xuHao (单元格) -->
+              <div id="u6819-1" class="ax_default _默认样式 u6819" data-label="xuHao" style="width: 100px; height: 50px; left: 100px; top: 0px;visibility: inherit">
+                <img id="u6819-1_img" class="img u6819_img" src="images/制程检验/xuanze_u1048.png"/>
+                <div id="u6819-1_text" class="text u6819_text" style="position: absolute;left: 15px;top: 16px;width: 83px;visibility: inherit">
+                  <p><span>序号</span></p>
+                </div>
+              </div>
+
+              <!-- piHao (单元格) -->
+              <div id="u6820-1" class="ax_default _默认样式 u6820" data-label="piHao" style="width: 200px; height: 50px; left: 200px; top: 0px;visibility: inherit">
+                <img id="u6820-1_img" class="img u6820_img" src="images/角色管理/pihao_u6820.png"/>
+                <div id="u6820-1_text" class="text u6820_text" style="position: absolute;left: 15px;top: 16px;width: 183px;visibility: inherit">
+                  <p><span>角色名称</span></p>
+                </div>
+              </div>
+
+              <!-- chuangJianRen (单元格) -->
+              <div id="u6821-1" class="ax_default _默认样式 u6821" data-label="chuangJianRen" style="width: 240px; height: 50px; left: 400px; top: 0px;visibility: inherit">
+                <img id="u6821-1_img" class="img u6821_img" src="images/角色管理/chuangjianren_u6821.png"/>
+                <div id="u6821-1_text" class="text u6821_text" style="position: absolute;left: 15px;top: 16px;width: 223px;visibility: inherit">
+                  <p><span>描述</span></p>
+                </div>
+              </div>
+
+              <!-- caoZuo (单元格) -->
+              <div id="u6822-1" class="ax_default _默认样式 u6822" data-label="caoZuo" style="width: 340px; height: 50px; left: 640px; top: 0px;visibility: inherit">
+                <img id="u6822-1_img" class="img u6822_img" src="images/角色管理/caozuo_u6822.png"/>
+                <div id="u6822-1_text" class="text u6822_text" style="position: absolute;left: 15px;top: 16px;width: 323px;visibility: inherit">
+                  <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span><a id="u6823-1" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">编辑</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp; </span><a id="u6824-1" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">删除</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6825-1" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">成员管理</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6826-1" class="link"><span style="font-family:'FontAwesome';"></span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"> 权限管理</span></a><span style="font-family:'FontAwesome';">&nbsp; </span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 复选框 (矩形) -->
+            <div id="u6827-1" class="ax_default _默认样式 u6827" data-label="复选框" style="width: 18px; height: 18px; left: 39px; top: 16px;visibility: inherit">
+              <div id="u6827-1_div" class="u6827_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+              <div id="u6827-1_text" class="text u6827_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- 表格高亮行 (矩形) -->
+            <div id="u6828-1" class="ax_default _高亮行 u6828" data-label="表格高亮行" style="width: 920px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+              <div id="u6828-1_div" class="u6828_div" style="width: 920px; height: 50px;visibility: inherit"></div>
+            </div>
+
+            <!-- 描述输入框 (组 合) -->
+            <div id="u6829-1" class="ax_default u6829" data-label="描述输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6830-1" class="ax_default _默认样式 u6830" data-label="边框" style="width: 220px; height: 40px; left: 410px; top: 4px;visibility: inherit">
+                <img id="u6830-1_img" class="img u6830_img" src="images/流程管理/边框_u4634.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6831-1" class="ax_default _默认样式 u6831" data-label="输入框" style="visibility: inherit">
+                <input id="u6831-1_input" type="text" value="" class="u6831_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 角色名输入框 (组 合) -->
+            <div id="u6832-1" class="ax_default u6832" data-label="角色名输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6833-1" class="ax_default _默认样式 u6833" data-label="边框" style="width: 180px; height: 40px; left: 211px; top: 4px;visibility: inherit">
+                <img id="u6833-1_img" class="img u6833_img" src="images/角色管理/边框_u6833.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6834-1" class="ax_default _默认样式 u6834" data-label="输入框" style="visibility: inherit">
+                <input id="u6834-1_input" type="text" value="" class="u6834_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 编辑操作 (组 合) -->
+            <div id="u6835-1" class="ax_default u6835" data-label="编辑操作" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6836-1" class="ax_default box_1 u6836" style="width: 90px; height: 20px; left: 647px; top: 14px;visibility: inherit">
+                <div id="u6836-1_div" class="u6836_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6837-1" class="ax_default _文本段落 u6837" style="width: 40px; height: 17px; left: 697px; top: 15px;visibility: inherit">
+                <div id="u6837-1_div" class="u6837_div" style="width: 40px; height: 17px;visibility: inherit"></div>
+                <div id="u6837-1_text" class="text u6837_text" style="position: absolute;left: 0px;top: 0px;width: 40px;visibility: inherit">
+                  <p><a id="u6838-1" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">取消</span></a></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6839-1" class="ax_default _文本段落 u6839" style="width: 43px; height: 17px; left: 647px; top: 15px;visibility: inherit">
+                <div id="u6839-1_div" class="u6839_div" style="width: 43px; height: 17px;visibility: inherit"></div>
+                <div id="u6839-1_text" class="text u6839_text" style="position: absolute;left: 0px;top: 0px;width: 43px;visibility: inherit">
+                  <p><a id="u6840-1" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">保存</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u6816-2" class="" style="width: 980px; height: 49px;">
+
+            <!-- Unnamed (表格) -->
+            <div id="u6817-2" class="ax_default u6817" style="visibility: inherit">
+
+              <!-- xuanZe (单元格) -->
+              <div id="u6818-2" class="ax_default _默认样式 u6818" data-label="xuanZe" style="width: 100px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                <img id="u6818-2_img" class="img u6818_img" src="images/制程检验/xuanze_u1048.png"/>
+              </div>
+
+              <!-- xuHao (单元格) -->
+              <div id="u6819-2" class="ax_default _默认样式 u6819" data-label="xuHao" style="width: 100px; height: 50px; left: 100px; top: 0px;visibility: inherit">
+                <img id="u6819-2_img" class="img u6819_img" src="images/制程检验/xuanze_u1048.png"/>
+                <div id="u6819-2_text" class="text u6819_text" style="position: absolute;left: 15px;top: 16px;width: 83px;visibility: inherit">
+                  <p><span>序号</span></p>
+                </div>
+              </div>
+
+              <!-- piHao (单元格) -->
+              <div id="u6820-2" class="ax_default _默认样式 u6820" data-label="piHao" style="width: 200px; height: 50px; left: 200px; top: 0px;visibility: inherit">
+                <img id="u6820-2_img" class="img u6820_img" src="images/角色管理/pihao_u6820.png"/>
+                <div id="u6820-2_text" class="text u6820_text" style="position: absolute;left: 15px;top: 16px;width: 183px;visibility: inherit">
+                  <p><span>角色名称</span></p>
+                </div>
+              </div>
+
+              <!-- chuangJianRen (单元格) -->
+              <div id="u6821-2" class="ax_default _默认样式 u6821" data-label="chuangJianRen" style="width: 240px; height: 50px; left: 400px; top: 0px;visibility: inherit">
+                <img id="u6821-2_img" class="img u6821_img" src="images/角色管理/chuangjianren_u6821.png"/>
+                <div id="u6821-2_text" class="text u6821_text" style="position: absolute;left: 15px;top: 16px;width: 223px;visibility: inherit">
+                  <p><span>描述</span></p>
+                </div>
+              </div>
+
+              <!-- caoZuo (单元格) -->
+              <div id="u6822-2" class="ax_default _默认样式 u6822" data-label="caoZuo" style="width: 340px; height: 50px; left: 640px; top: 0px;visibility: inherit">
+                <img id="u6822-2_img" class="img u6822_img" src="images/角色管理/caozuo_u6822.png"/>
+                <div id="u6822-2_text" class="text u6822_text" style="position: absolute;left: 15px;top: 16px;width: 323px;visibility: inherit">
+                  <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span><a id="u6823-2" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">编辑</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp; </span><a id="u6824-2" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">删除</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6825-2" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">成员管理</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6826-2" class="link"><span style="font-family:'FontAwesome';"></span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"> 权限管理</span></a><span style="font-family:'FontAwesome';">&nbsp; </span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 复选框 (矩形) -->
+            <div id="u6827-2" class="ax_default _默认样式 u6827" data-label="复选框" style="width: 18px; height: 18px; left: 39px; top: 16px;visibility: inherit">
+              <div id="u6827-2_div" class="u6827_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+              <div id="u6827-2_text" class="text u6827_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- 表格高亮行 (矩形) -->
+            <div id="u6828-2" class="ax_default _高亮行 u6828" data-label="表格高亮行" style="width: 920px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+              <div id="u6828-2_div" class="u6828_div" style="width: 920px; height: 50px;visibility: inherit"></div>
+            </div>
+
+            <!-- 描述输入框 (组 合) -->
+            <div id="u6829-2" class="ax_default u6829" data-label="描述输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6830-2" class="ax_default _默认样式 u6830" data-label="边框" style="width: 220px; height: 40px; left: 410px; top: 4px;visibility: inherit">
+                <img id="u6830-2_img" class="img u6830_img" src="images/流程管理/边框_u4634.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6831-2" class="ax_default _默认样式 u6831" data-label="输入框" style="visibility: inherit">
+                <input id="u6831-2_input" type="text" value="" class="u6831_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 角色名输入框 (组 合) -->
+            <div id="u6832-2" class="ax_default u6832" data-label="角色名输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6833-2" class="ax_default _默认样式 u6833" data-label="边框" style="width: 180px; height: 40px; left: 211px; top: 4px;visibility: inherit">
+                <img id="u6833-2_img" class="img u6833_img" src="images/角色管理/边框_u6833.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6834-2" class="ax_default _默认样式 u6834" data-label="输入框" style="visibility: inherit">
+                <input id="u6834-2_input" type="text" value="" class="u6834_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 编辑操作 (组 合) -->
+            <div id="u6835-2" class="ax_default u6835" data-label="编辑操作" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6836-2" class="ax_default box_1 u6836" style="width: 90px; height: 20px; left: 647px; top: 14px;visibility: inherit">
+                <div id="u6836-2_div" class="u6836_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6837-2" class="ax_default _文本段落 u6837" style="width: 40px; height: 17px; left: 697px; top: 15px;visibility: inherit">
+                <div id="u6837-2_div" class="u6837_div" style="width: 40px; height: 17px;visibility: inherit"></div>
+                <div id="u6837-2_text" class="text u6837_text" style="position: absolute;left: 0px;top: 0px;width: 40px;visibility: inherit">
+                  <p><a id="u6838-2" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">取消</span></a></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6839-2" class="ax_default _文本段落 u6839" style="width: 43px; height: 17px; left: 647px; top: 15px;visibility: inherit">
+                <div id="u6839-2_div" class="u6839_div" style="width: 43px; height: 17px;visibility: inherit"></div>
+                <div id="u6839-2_text" class="text u6839_text" style="position: absolute;left: 0px;top: 0px;width: 43px;visibility: inherit">
+                  <p><a id="u6840-2" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">保存</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u6816-3" class="" style="width: 980px; height: 49px;">
+
+            <!-- Unnamed (表格) -->
+            <div id="u6817-3" class="ax_default u6817" style="visibility: inherit">
+
+              <!-- xuanZe (单元格) -->
+              <div id="u6818-3" class="ax_default _默认样式 u6818" data-label="xuanZe" style="width: 100px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                <img id="u6818-3_img" class="img u6818_img" src="images/制程检验/xuanze_u1048.png"/>
+              </div>
+
+              <!-- xuHao (单元格) -->
+              <div id="u6819-3" class="ax_default _默认样式 u6819" data-label="xuHao" style="width: 100px; height: 50px; left: 100px; top: 0px;visibility: inherit">
+                <img id="u6819-3_img" class="img u6819_img" src="images/制程检验/xuanze_u1048.png"/>
+                <div id="u6819-3_text" class="text u6819_text" style="position: absolute;left: 15px;top: 16px;width: 83px;visibility: inherit">
+                  <p><span>序号</span></p>
+                </div>
+              </div>
+
+              <!-- piHao (单元格) -->
+              <div id="u6820-3" class="ax_default _默认样式 u6820" data-label="piHao" style="width: 200px; height: 50px; left: 200px; top: 0px;visibility: inherit">
+                <img id="u6820-3_img" class="img u6820_img" src="images/角色管理/pihao_u6820.png"/>
+                <div id="u6820-3_text" class="text u6820_text" style="position: absolute;left: 15px;top: 16px;width: 183px;visibility: inherit">
+                  <p><span>角色名称</span></p>
+                </div>
+              </div>
+
+              <!-- chuangJianRen (单元格) -->
+              <div id="u6821-3" class="ax_default _默认样式 u6821" data-label="chuangJianRen" style="width: 240px; height: 50px; left: 400px; top: 0px;visibility: inherit">
+                <img id="u6821-3_img" class="img u6821_img" src="images/角色管理/chuangjianren_u6821.png"/>
+                <div id="u6821-3_text" class="text u6821_text" style="position: absolute;left: 15px;top: 16px;width: 223px;visibility: inherit">
+                  <p><span>描述</span></p>
+                </div>
+              </div>
+
+              <!-- caoZuo (单元格) -->
+              <div id="u6822-3" class="ax_default _默认样式 u6822" data-label="caoZuo" style="width: 340px; height: 50px; left: 640px; top: 0px;visibility: inherit">
+                <img id="u6822-3_img" class="img u6822_img" src="images/角色管理/caozuo_u6822.png"/>
+                <div id="u6822-3_text" class="text u6822_text" style="position: absolute;left: 15px;top: 16px;width: 323px;visibility: inherit">
+                  <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span><a id="u6823-3" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">编辑</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp; </span><a id="u6824-3" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">删除</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6825-3" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">成员管理</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6826-3" class="link"><span style="font-family:'FontAwesome';"></span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"> 权限管理</span></a><span style="font-family:'FontAwesome';">&nbsp; </span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 复选框 (矩形) -->
+            <div id="u6827-3" class="ax_default _默认样式 u6827" data-label="复选框" style="width: 18px; height: 18px; left: 39px; top: 16px;visibility: inherit">
+              <div id="u6827-3_div" class="u6827_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+              <div id="u6827-3_text" class="text u6827_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- 表格高亮行 (矩形) -->
+            <div id="u6828-3" class="ax_default _高亮行 u6828" data-label="表格高亮行" style="width: 920px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+              <div id="u6828-3_div" class="u6828_div" style="width: 920px; height: 50px;visibility: inherit"></div>
+            </div>
+
+            <!-- 描述输入框 (组 合) -->
+            <div id="u6829-3" class="ax_default u6829" data-label="描述输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6830-3" class="ax_default _默认样式 u6830" data-label="边框" style="width: 220px; height: 40px; left: 410px; top: 4px;visibility: inherit">
+                <img id="u6830-3_img" class="img u6830_img" src="images/流程管理/边框_u4634.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6831-3" class="ax_default _默认样式 u6831" data-label="输入框" style="visibility: inherit">
+                <input id="u6831-3_input" type="text" value="" class="u6831_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 角色名输入框 (组 合) -->
+            <div id="u6832-3" class="ax_default u6832" data-label="角色名输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6833-3" class="ax_default _默认样式 u6833" data-label="边框" style="width: 180px; height: 40px; left: 211px; top: 4px;visibility: inherit">
+                <img id="u6833-3_img" class="img u6833_img" src="images/角色管理/边框_u6833.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6834-3" class="ax_default _默认样式 u6834" data-label="输入框" style="visibility: inherit">
+                <input id="u6834-3_input" type="text" value="" class="u6834_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 编辑操作 (组 合) -->
+            <div id="u6835-3" class="ax_default u6835" data-label="编辑操作" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6836-3" class="ax_default box_1 u6836" style="width: 90px; height: 20px; left: 647px; top: 14px;visibility: inherit">
+                <div id="u6836-3_div" class="u6836_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6837-3" class="ax_default _文本段落 u6837" style="width: 40px; height: 17px; left: 697px; top: 15px;visibility: inherit">
+                <div id="u6837-3_div" class="u6837_div" style="width: 40px; height: 17px;visibility: inherit"></div>
+                <div id="u6837-3_text" class="text u6837_text" style="position: absolute;left: 0px;top: 0px;width: 40px;visibility: inherit">
+                  <p><a id="u6838-3" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">取消</span></a></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6839-3" class="ax_default _文本段落 u6839" style="width: 43px; height: 17px; left: 647px; top: 15px;visibility: inherit">
+                <div id="u6839-3_div" class="u6839_div" style="width: 43px; height: 17px;visibility: inherit"></div>
+                <div id="u6839-3_text" class="text u6839_text" style="position: absolute;left: 0px;top: 0px;width: 43px;visibility: inherit">
+                  <p><a id="u6840-3" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">保存</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u6816-4" class="" style="width: 980px; height: 49px;">
+
+            <!-- Unnamed (表格) -->
+            <div id="u6817-4" class="ax_default u6817" style="visibility: inherit">
+
+              <!-- xuanZe (单元格) -->
+              <div id="u6818-4" class="ax_default _默认样式 u6818" data-label="xuanZe" style="width: 100px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                <img id="u6818-4_img" class="img u6818_img" src="images/制程检验/xuanze_u1048.png"/>
+              </div>
+
+              <!-- xuHao (单元格) -->
+              <div id="u6819-4" class="ax_default _默认样式 u6819" data-label="xuHao" style="width: 100px; height: 50px; left: 100px; top: 0px;visibility: inherit">
+                <img id="u6819-4_img" class="img u6819_img" src="images/制程检验/xuanze_u1048.png"/>
+                <div id="u6819-4_text" class="text u6819_text" style="position: absolute;left: 15px;top: 16px;width: 83px;visibility: inherit">
+                  <p><span>序号</span></p>
+                </div>
+              </div>
+
+              <!-- piHao (单元格) -->
+              <div id="u6820-4" class="ax_default _默认样式 u6820" data-label="piHao" style="width: 200px; height: 50px; left: 200px; top: 0px;visibility: inherit">
+                <img id="u6820-4_img" class="img u6820_img" src="images/角色管理/pihao_u6820.png"/>
+                <div id="u6820-4_text" class="text u6820_text" style="position: absolute;left: 15px;top: 16px;width: 183px;visibility: inherit">
+                  <p><span>角色名称</span></p>
+                </div>
+              </div>
+
+              <!-- chuangJianRen (单元格) -->
+              <div id="u6821-4" class="ax_default _默认样式 u6821" data-label="chuangJianRen" style="width: 240px; height: 50px; left: 400px; top: 0px;visibility: inherit">
+                <img id="u6821-4_img" class="img u6821_img" src="images/角色管理/chuangjianren_u6821.png"/>
+                <div id="u6821-4_text" class="text u6821_text" style="position: absolute;left: 15px;top: 16px;width: 223px;visibility: inherit">
+                  <p><span>描述</span></p>
+                </div>
+              </div>
+
+              <!-- caoZuo (单元格) -->
+              <div id="u6822-4" class="ax_default _默认样式 u6822" data-label="caoZuo" style="width: 340px; height: 50px; left: 640px; top: 0px;visibility: inherit">
+                <img id="u6822-4_img" class="img u6822_img" src="images/角色管理/caozuo_u6822.png"/>
+                <div id="u6822-4_text" class="text u6822_text" style="position: absolute;left: 15px;top: 16px;width: 323px;visibility: inherit">
+                  <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span><a id="u6823-4" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">编辑</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp; </span><a id="u6824-4" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">删除</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6825-4" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">成员管理</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6826-4" class="link"><span style="font-family:'FontAwesome';"></span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"> 权限管理</span></a><span style="font-family:'FontAwesome';">&nbsp; </span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 复选框 (矩形) -->
+            <div id="u6827-4" class="ax_default _默认样式 u6827" data-label="复选框" style="width: 18px; height: 18px; left: 39px; top: 16px;visibility: inherit">
+              <div id="u6827-4_div" class="u6827_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+              <div id="u6827-4_text" class="text u6827_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- 表格高亮行 (矩形) -->
+            <div id="u6828-4" class="ax_default _高亮行 u6828" data-label="表格高亮行" style="width: 920px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+              <div id="u6828-4_div" class="u6828_div" style="width: 920px; height: 50px;visibility: inherit"></div>
+            </div>
+
+            <!-- 描述输入框 (组 合) -->
+            <div id="u6829-4" class="ax_default u6829" data-label="描述输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6830-4" class="ax_default _默认样式 u6830" data-label="边框" style="width: 220px; height: 40px; left: 410px; top: 4px;visibility: inherit">
+                <img id="u6830-4_img" class="img u6830_img" src="images/流程管理/边框_u4634.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6831-4" class="ax_default _默认样式 u6831" data-label="输入框" style="visibility: inherit">
+                <input id="u6831-4_input" type="text" value="" class="u6831_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 角色名输入框 (组 合) -->
+            <div id="u6832-4" class="ax_default u6832" data-label="角色名输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6833-4" class="ax_default _默认样式 u6833" data-label="边框" style="width: 180px; height: 40px; left: 211px; top: 4px;visibility: inherit">
+                <img id="u6833-4_img" class="img u6833_img" src="images/角色管理/边框_u6833.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6834-4" class="ax_default _默认样式 u6834" data-label="输入框" style="visibility: inherit">
+                <input id="u6834-4_input" type="text" value="" class="u6834_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 编辑操作 (组 合) -->
+            <div id="u6835-4" class="ax_default u6835" data-label="编辑操作" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6836-4" class="ax_default box_1 u6836" style="width: 90px; height: 20px; left: 647px; top: 14px;visibility: inherit">
+                <div id="u6836-4_div" class="u6836_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6837-4" class="ax_default _文本段落 u6837" style="width: 40px; height: 17px; left: 697px; top: 15px;visibility: inherit">
+                <div id="u6837-4_div" class="u6837_div" style="width: 40px; height: 17px;visibility: inherit"></div>
+                <div id="u6837-4_text" class="text u6837_text" style="position: absolute;left: 0px;top: 0px;width: 40px;visibility: inherit">
+                  <p><a id="u6838-4" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">取消</span></a></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6839-4" class="ax_default _文本段落 u6839" style="width: 43px; height: 17px; left: 647px; top: 15px;visibility: inherit">
+                <div id="u6839-4_div" class="u6839_div" style="width: 43px; height: 17px;visibility: inherit"></div>
+                <div id="u6839-4_text" class="text u6839_text" style="position: absolute;left: 0px;top: 0px;width: 43px;visibility: inherit">
+                  <p><a id="u6840-4" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">保存</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u6816-5" class="" style="width: 980px; height: 49px;">
+
+            <!-- Unnamed (表格) -->
+            <div id="u6817-5" class="ax_default u6817" style="visibility: inherit">
+
+              <!-- xuanZe (单元格) -->
+              <div id="u6818-5" class="ax_default _默认样式 u6818" data-label="xuanZe" style="width: 100px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                <img id="u6818-5_img" class="img u6818_img" src="images/制程检验/xuanze_u1048.png"/>
+              </div>
+
+              <!-- xuHao (单元格) -->
+              <div id="u6819-5" class="ax_default _默认样式 u6819" data-label="xuHao" style="width: 100px; height: 50px; left: 100px; top: 0px;visibility: inherit">
+                <img id="u6819-5_img" class="img u6819_img" src="images/制程检验/xuanze_u1048.png"/>
+                <div id="u6819-5_text" class="text u6819_text" style="position: absolute;left: 15px;top: 16px;width: 83px;visibility: inherit">
+                  <p><span>序号</span></p>
+                </div>
+              </div>
+
+              <!-- piHao (单元格) -->
+              <div id="u6820-5" class="ax_default _默认样式 u6820" data-label="piHao" style="width: 200px; height: 50px; left: 200px; top: 0px;visibility: inherit">
+                <img id="u6820-5_img" class="img u6820_img" src="images/角色管理/pihao_u6820.png"/>
+                <div id="u6820-5_text" class="text u6820_text" style="position: absolute;left: 15px;top: 16px;width: 183px;visibility: inherit">
+                  <p><span>角色名称</span></p>
+                </div>
+              </div>
+
+              <!-- chuangJianRen (单元格) -->
+              <div id="u6821-5" class="ax_default _默认样式 u6821" data-label="chuangJianRen" style="width: 240px; height: 50px; left: 400px; top: 0px;visibility: inherit">
+                <img id="u6821-5_img" class="img u6821_img" src="images/角色管理/chuangjianren_u6821.png"/>
+                <div id="u6821-5_text" class="text u6821_text" style="position: absolute;left: 15px;top: 16px;width: 223px;visibility: inherit">
+                  <p><span>描述</span></p>
+                </div>
+              </div>
+
+              <!-- caoZuo (单元格) -->
+              <div id="u6822-5" class="ax_default _默认样式 u6822" data-label="caoZuo" style="width: 340px; height: 50px; left: 640px; top: 0px;visibility: inherit">
+                <img id="u6822-5_img" class="img u6822_img" src="images/角色管理/caozuo_u6822.png"/>
+                <div id="u6822-5_text" class="text u6822_text" style="position: absolute;left: 15px;top: 16px;width: 323px;visibility: inherit">
+                  <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span><a id="u6823-5" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">编辑</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp; </span><a id="u6824-5" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">删除</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6825-5" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">成员管理</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6826-5" class="link"><span style="font-family:'FontAwesome';"></span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"> 权限管理</span></a><span style="font-family:'FontAwesome';">&nbsp; </span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 复选框 (矩形) -->
+            <div id="u6827-5" class="ax_default _默认样式 u6827" data-label="复选框" style="width: 18px; height: 18px; left: 39px; top: 16px;visibility: inherit">
+              <div id="u6827-5_div" class="u6827_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+              <div id="u6827-5_text" class="text u6827_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- 表格高亮行 (矩形) -->
+            <div id="u6828-5" class="ax_default _高亮行 u6828" data-label="表格高亮行" style="width: 920px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+              <div id="u6828-5_div" class="u6828_div" style="width: 920px; height: 50px;visibility: inherit"></div>
+            </div>
+
+            <!-- 描述输入框 (组 合) -->
+            <div id="u6829-5" class="ax_default u6829" data-label="描述输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6830-5" class="ax_default _默认样式 u6830" data-label="边框" style="width: 220px; height: 40px; left: 410px; top: 4px;visibility: inherit">
+                <img id="u6830-5_img" class="img u6830_img" src="images/流程管理/边框_u4634.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6831-5" class="ax_default _默认样式 u6831" data-label="输入框" style="visibility: inherit">
+                <input id="u6831-5_input" type="text" value="" class="u6831_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 角色名输入框 (组 合) -->
+            <div id="u6832-5" class="ax_default u6832" data-label="角色名输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6833-5" class="ax_default _默认样式 u6833" data-label="边框" style="width: 180px; height: 40px; left: 211px; top: 4px;visibility: inherit">
+                <img id="u6833-5_img" class="img u6833_img" src="images/角色管理/边框_u6833.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6834-5" class="ax_default _默认样式 u6834" data-label="输入框" style="visibility: inherit">
+                <input id="u6834-5_input" type="text" value="" class="u6834_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 编辑操作 (组 合) -->
+            <div id="u6835-5" class="ax_default u6835" data-label="编辑操作" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6836-5" class="ax_default box_1 u6836" style="width: 90px; height: 20px; left: 647px; top: 14px;visibility: inherit">
+                <div id="u6836-5_div" class="u6836_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6837-5" class="ax_default _文本段落 u6837" style="width: 40px; height: 17px; left: 697px; top: 15px;visibility: inherit">
+                <div id="u6837-5_div" class="u6837_div" style="width: 40px; height: 17px;visibility: inherit"></div>
+                <div id="u6837-5_text" class="text u6837_text" style="position: absolute;left: 0px;top: 0px;width: 40px;visibility: inherit">
+                  <p><a id="u6838-5" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">取消</span></a></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6839-5" class="ax_default _文本段落 u6839" style="width: 43px; height: 17px; left: 647px; top: 15px;visibility: inherit">
+                <div id="u6839-5_div" class="u6839_div" style="width: 43px; height: 17px;visibility: inherit"></div>
+                <div id="u6839-5_text" class="text u6839_text" style="position: absolute;left: 0px;top: 0px;width: 43px;visibility: inherit">
+                  <p><a id="u6840-5" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">保存</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u6816-6" class="" style="width: 980px; height: 49px;">
+
+            <!-- Unnamed (表格) -->
+            <div id="u6817-6" class="ax_default u6817" style="visibility: inherit">
+
+              <!-- xuanZe (单元格) -->
+              <div id="u6818-6" class="ax_default _默认样式 u6818" data-label="xuanZe" style="width: 100px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                <img id="u6818-6_img" class="img u6818_img" src="images/制程检验/xuanze_u1048.png"/>
+              </div>
+
+              <!-- xuHao (单元格) -->
+              <div id="u6819-6" class="ax_default _默认样式 u6819" data-label="xuHao" style="width: 100px; height: 50px; left: 100px; top: 0px;visibility: inherit">
+                <img id="u6819-6_img" class="img u6819_img" src="images/制程检验/xuanze_u1048.png"/>
+                <div id="u6819-6_text" class="text u6819_text" style="position: absolute;left: 15px;top: 16px;width: 83px;visibility: inherit">
+                  <p><span>序号</span></p>
+                </div>
+              </div>
+
+              <!-- piHao (单元格) -->
+              <div id="u6820-6" class="ax_default _默认样式 u6820" data-label="piHao" style="width: 200px; height: 50px; left: 200px; top: 0px;visibility: inherit">
+                <img id="u6820-6_img" class="img u6820_img" src="images/角色管理/pihao_u6820.png"/>
+                <div id="u6820-6_text" class="text u6820_text" style="position: absolute;left: 15px;top: 16px;width: 183px;visibility: inherit">
+                  <p><span>角色名称</span></p>
+                </div>
+              </div>
+
+              <!-- chuangJianRen (单元格) -->
+              <div id="u6821-6" class="ax_default _默认样式 u6821" data-label="chuangJianRen" style="width: 240px; height: 50px; left: 400px; top: 0px;visibility: inherit">
+                <img id="u6821-6_img" class="img u6821_img" src="images/角色管理/chuangjianren_u6821.png"/>
+                <div id="u6821-6_text" class="text u6821_text" style="position: absolute;left: 15px;top: 16px;width: 223px;visibility: inherit">
+                  <p><span>描述</span></p>
+                </div>
+              </div>
+
+              <!-- caoZuo (单元格) -->
+              <div id="u6822-6" class="ax_default _默认样式 u6822" data-label="caoZuo" style="width: 340px; height: 50px; left: 640px; top: 0px;visibility: inherit">
+                <img id="u6822-6_img" class="img u6822_img" src="images/角色管理/caozuo_u6822.png"/>
+                <div id="u6822-6_text" class="text u6822_text" style="position: absolute;left: 15px;top: 16px;width: 323px;visibility: inherit">
+                  <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span><a id="u6823-6" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">编辑</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp; </span><a id="u6824-6" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">删除</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6825-6" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">成员管理</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6826-6" class="link"><span style="font-family:'FontAwesome';"></span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"> 权限管理</span></a><span style="font-family:'FontAwesome';">&nbsp; </span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 复选框 (矩形) -->
+            <div id="u6827-6" class="ax_default _默认样式 u6827" data-label="复选框" style="width: 18px; height: 18px; left: 39px; top: 16px;visibility: inherit">
+              <div id="u6827-6_div" class="u6827_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+              <div id="u6827-6_text" class="text u6827_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- 表格高亮行 (矩形) -->
+            <div id="u6828-6" class="ax_default _高亮行 u6828" data-label="表格高亮行" style="width: 920px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+              <div id="u6828-6_div" class="u6828_div" style="width: 920px; height: 50px;visibility: inherit"></div>
+            </div>
+
+            <!-- 描述输入框 (组 合) -->
+            <div id="u6829-6" class="ax_default u6829" data-label="描述输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6830-6" class="ax_default _默认样式 u6830" data-label="边框" style="width: 220px; height: 40px; left: 410px; top: 4px;visibility: inherit">
+                <img id="u6830-6_img" class="img u6830_img" src="images/流程管理/边框_u4634.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6831-6" class="ax_default _默认样式 u6831" data-label="输入框" style="visibility: inherit">
+                <input id="u6831-6_input" type="text" value="" class="u6831_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 角色名输入框 (组 合) -->
+            <div id="u6832-6" class="ax_default u6832" data-label="角色名输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6833-6" class="ax_default _默认样式 u6833" data-label="边框" style="width: 180px; height: 40px; left: 211px; top: 4px;visibility: inherit">
+                <img id="u6833-6_img" class="img u6833_img" src="images/角色管理/边框_u6833.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6834-6" class="ax_default _默认样式 u6834" data-label="输入框" style="visibility: inherit">
+                <input id="u6834-6_input" type="text" value="" class="u6834_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 编辑操作 (组 合) -->
+            <div id="u6835-6" class="ax_default u6835" data-label="编辑操作" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6836-6" class="ax_default box_1 u6836" style="width: 90px; height: 20px; left: 647px; top: 14px;visibility: inherit">
+                <div id="u6836-6_div" class="u6836_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6837-6" class="ax_default _文本段落 u6837" style="width: 40px; height: 17px; left: 697px; top: 15px;visibility: inherit">
+                <div id="u6837-6_div" class="u6837_div" style="width: 40px; height: 17px;visibility: inherit"></div>
+                <div id="u6837-6_text" class="text u6837_text" style="position: absolute;left: 0px;top: 0px;width: 40px;visibility: inherit">
+                  <p><a id="u6838-6" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">取消</span></a></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6839-6" class="ax_default _文本段落 u6839" style="width: 43px; height: 17px; left: 647px; top: 15px;visibility: inherit">
+                <div id="u6839-6_div" class="u6839_div" style="width: 43px; height: 17px;visibility: inherit"></div>
+                <div id="u6839-6_text" class="text u6839_text" style="position: absolute;left: 0px;top: 0px;width: 43px;visibility: inherit">
+                  <p><a id="u6840-6" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">保存</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u6816-7" class="" style="width: 980px; height: 49px;">
+
+            <!-- Unnamed (表格) -->
+            <div id="u6817-7" class="ax_default u6817" style="visibility: inherit">
+
+              <!-- xuanZe (单元格) -->
+              <div id="u6818-7" class="ax_default _默认样式 u6818" data-label="xuanZe" style="width: 100px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                <img id="u6818-7_img" class="img u6818_img" src="images/制程检验/xuanze_u1048.png"/>
+              </div>
+
+              <!-- xuHao (单元格) -->
+              <div id="u6819-7" class="ax_default _默认样式 u6819" data-label="xuHao" style="width: 100px; height: 50px; left: 100px; top: 0px;visibility: inherit">
+                <img id="u6819-7_img" class="img u6819_img" src="images/制程检验/xuanze_u1048.png"/>
+                <div id="u6819-7_text" class="text u6819_text" style="position: absolute;left: 15px;top: 16px;width: 83px;visibility: inherit">
+                  <p><span>序号</span></p>
+                </div>
+              </div>
+
+              <!-- piHao (单元格) -->
+              <div id="u6820-7" class="ax_default _默认样式 u6820" data-label="piHao" style="width: 200px; height: 50px; left: 200px; top: 0px;visibility: inherit">
+                <img id="u6820-7_img" class="img u6820_img" src="images/角色管理/pihao_u6820.png"/>
+                <div id="u6820-7_text" class="text u6820_text" style="position: absolute;left: 15px;top: 16px;width: 183px;visibility: inherit">
+                  <p><span>角色名称</span></p>
+                </div>
+              </div>
+
+              <!-- chuangJianRen (单元格) -->
+              <div id="u6821-7" class="ax_default _默认样式 u6821" data-label="chuangJianRen" style="width: 240px; height: 50px; left: 400px; top: 0px;visibility: inherit">
+                <img id="u6821-7_img" class="img u6821_img" src="images/角色管理/chuangjianren_u6821.png"/>
+                <div id="u6821-7_text" class="text u6821_text" style="position: absolute;left: 15px;top: 16px;width: 223px;visibility: inherit">
+                  <p><span>描述</span></p>
+                </div>
+              </div>
+
+              <!-- caoZuo (单元格) -->
+              <div id="u6822-7" class="ax_default _默认样式 u6822" data-label="caoZuo" style="width: 340px; height: 50px; left: 640px; top: 0px;visibility: inherit">
+                <img id="u6822-7_img" class="img u6822_img" src="images/角色管理/caozuo_u6822.png"/>
+                <div id="u6822-7_text" class="text u6822_text" style="position: absolute;left: 15px;top: 16px;width: 323px;visibility: inherit">
+                  <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span><a id="u6823-7" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">编辑</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp; </span><a id="u6824-7" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">删除</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6825-7" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">成员管理</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6826-7" class="link"><span style="font-family:'FontAwesome';"></span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"> 权限管理</span></a><span style="font-family:'FontAwesome';">&nbsp; </span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 复选框 (矩形) -->
+            <div id="u6827-7" class="ax_default _默认样式 u6827" data-label="复选框" style="width: 18px; height: 18px; left: 39px; top: 16px;visibility: inherit">
+              <div id="u6827-7_div" class="u6827_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+              <div id="u6827-7_text" class="text u6827_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- 表格高亮行 (矩形) -->
+            <div id="u6828-7" class="ax_default _高亮行 u6828" data-label="表格高亮行" style="width: 920px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+              <div id="u6828-7_div" class="u6828_div" style="width: 920px; height: 50px;visibility: inherit"></div>
+            </div>
+
+            <!-- 描述输入框 (组 合) -->
+            <div id="u6829-7" class="ax_default u6829" data-label="描述输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6830-7" class="ax_default _默认样式 u6830" data-label="边框" style="width: 220px; height: 40px; left: 410px; top: 4px;visibility: inherit">
+                <img id="u6830-7_img" class="img u6830_img" src="images/流程管理/边框_u4634.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6831-7" class="ax_default _默认样式 u6831" data-label="输入框" style="visibility: inherit">
+                <input id="u6831-7_input" type="text" value="" class="u6831_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 角色名输入框 (组 合) -->
+            <div id="u6832-7" class="ax_default u6832" data-label="角色名输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6833-7" class="ax_default _默认样式 u6833" data-label="边框" style="width: 180px; height: 40px; left: 211px; top: 4px;visibility: inherit">
+                <img id="u6833-7_img" class="img u6833_img" src="images/角色管理/边框_u6833.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6834-7" class="ax_default _默认样式 u6834" data-label="输入框" style="visibility: inherit">
+                <input id="u6834-7_input" type="text" value="" class="u6834_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 编辑操作 (组 合) -->
+            <div id="u6835-7" class="ax_default u6835" data-label="编辑操作" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6836-7" class="ax_default box_1 u6836" style="width: 90px; height: 20px; left: 647px; top: 14px;visibility: inherit">
+                <div id="u6836-7_div" class="u6836_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6837-7" class="ax_default _文本段落 u6837" style="width: 40px; height: 17px; left: 697px; top: 15px;visibility: inherit">
+                <div id="u6837-7_div" class="u6837_div" style="width: 40px; height: 17px;visibility: inherit"></div>
+                <div id="u6837-7_text" class="text u6837_text" style="position: absolute;left: 0px;top: 0px;width: 40px;visibility: inherit">
+                  <p><a id="u6838-7" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">取消</span></a></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6839-7" class="ax_default _文本段落 u6839" style="width: 43px; height: 17px; left: 647px; top: 15px;visibility: inherit">
+                <div id="u6839-7_div" class="u6839_div" style="width: 43px; height: 17px;visibility: inherit"></div>
+                <div id="u6839-7_text" class="text u6839_text" style="position: absolute;left: 0px;top: 0px;width: 43px;visibility: inherit">
+                  <p><a id="u6840-7" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">保存</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u6816-8" class="" style="width: 980px; height: 49px;">
+
+            <!-- Unnamed (表格) -->
+            <div id="u6817-8" class="ax_default u6817" style="visibility: inherit">
+
+              <!-- xuanZe (单元格) -->
+              <div id="u6818-8" class="ax_default _默认样式 u6818" data-label="xuanZe" style="width: 100px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                <img id="u6818-8_img" class="img u6818_img" src="images/制程检验/xuanze_u1048.png"/>
+              </div>
+
+              <!-- xuHao (单元格) -->
+              <div id="u6819-8" class="ax_default _默认样式 u6819" data-label="xuHao" style="width: 100px; height: 50px; left: 100px; top: 0px;visibility: inherit">
+                <img id="u6819-8_img" class="img u6819_img" src="images/制程检验/xuanze_u1048.png"/>
+                <div id="u6819-8_text" class="text u6819_text" style="position: absolute;left: 15px;top: 16px;width: 83px;visibility: inherit">
+                  <p><span>序号</span></p>
+                </div>
+              </div>
+
+              <!-- piHao (单元格) -->
+              <div id="u6820-8" class="ax_default _默认样式 u6820" data-label="piHao" style="width: 200px; height: 50px; left: 200px; top: 0px;visibility: inherit">
+                <img id="u6820-8_img" class="img u6820_img" src="images/角色管理/pihao_u6820.png"/>
+                <div id="u6820-8_text" class="text u6820_text" style="position: absolute;left: 15px;top: 16px;width: 183px;visibility: inherit">
+                  <p><span>角色名称</span></p>
+                </div>
+              </div>
+
+              <!-- chuangJianRen (单元格) -->
+              <div id="u6821-8" class="ax_default _默认样式 u6821" data-label="chuangJianRen" style="width: 240px; height: 50px; left: 400px; top: 0px;visibility: inherit">
+                <img id="u6821-8_img" class="img u6821_img" src="images/角色管理/chuangjianren_u6821.png"/>
+                <div id="u6821-8_text" class="text u6821_text" style="position: absolute;left: 15px;top: 16px;width: 223px;visibility: inherit">
+                  <p><span>描述</span></p>
+                </div>
+              </div>
+
+              <!-- caoZuo (单元格) -->
+              <div id="u6822-8" class="ax_default _默认样式 u6822" data-label="caoZuo" style="width: 340px; height: 50px; left: 640px; top: 0px;visibility: inherit">
+                <img id="u6822-8_img" class="img u6822_img" src="images/角色管理/caozuo_u6822.png"/>
+                <div id="u6822-8_text" class="text u6822_text" style="position: absolute;left: 15px;top: 16px;width: 323px;visibility: inherit">
+                  <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span><a id="u6823-8" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">编辑</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp; </span><a id="u6824-8" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">删除</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6825-8" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">成员管理</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6826-8" class="link"><span style="font-family:'FontAwesome';"></span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"> 权限管理</span></a><span style="font-family:'FontAwesome';">&nbsp; </span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 复选框 (矩形) -->
+            <div id="u6827-8" class="ax_default _默认样式 u6827" data-label="复选框" style="width: 18px; height: 18px; left: 39px; top: 16px;visibility: inherit">
+              <div id="u6827-8_div" class="u6827_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+              <div id="u6827-8_text" class="text u6827_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- 表格高亮行 (矩形) -->
+            <div id="u6828-8" class="ax_default _高亮行 u6828" data-label="表格高亮行" style="width: 920px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+              <div id="u6828-8_div" class="u6828_div" style="width: 920px; height: 50px;visibility: inherit"></div>
+            </div>
+
+            <!-- 描述输入框 (组 合) -->
+            <div id="u6829-8" class="ax_default u6829" data-label="描述输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6830-8" class="ax_default _默认样式 u6830" data-label="边框" style="width: 220px; height: 40px; left: 410px; top: 4px;visibility: inherit">
+                <img id="u6830-8_img" class="img u6830_img" src="images/流程管理/边框_u4634.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6831-8" class="ax_default _默认样式 u6831" data-label="输入框" style="visibility: inherit">
+                <input id="u6831-8_input" type="text" value="" class="u6831_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 角色名输入框 (组 合) -->
+            <div id="u6832-8" class="ax_default u6832" data-label="角色名输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6833-8" class="ax_default _默认样式 u6833" data-label="边框" style="width: 180px; height: 40px; left: 211px; top: 4px;visibility: inherit">
+                <img id="u6833-8_img" class="img u6833_img" src="images/角色管理/边框_u6833.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6834-8" class="ax_default _默认样式 u6834" data-label="输入框" style="visibility: inherit">
+                <input id="u6834-8_input" type="text" value="" class="u6834_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 编辑操作 (组 合) -->
+            <div id="u6835-8" class="ax_default u6835" data-label="编辑操作" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6836-8" class="ax_default box_1 u6836" style="width: 90px; height: 20px; left: 647px; top: 14px;visibility: inherit">
+                <div id="u6836-8_div" class="u6836_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6837-8" class="ax_default _文本段落 u6837" style="width: 40px; height: 17px; left: 697px; top: 15px;visibility: inherit">
+                <div id="u6837-8_div" class="u6837_div" style="width: 40px; height: 17px;visibility: inherit"></div>
+                <div id="u6837-8_text" class="text u6837_text" style="position: absolute;left: 0px;top: 0px;width: 40px;visibility: inherit">
+                  <p><a id="u6838-8" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">取消</span></a></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6839-8" class="ax_default _文本段落 u6839" style="width: 43px; height: 17px; left: 647px; top: 15px;visibility: inherit">
+                <div id="u6839-8_div" class="u6839_div" style="width: 43px; height: 17px;visibility: inherit"></div>
+                <div id="u6839-8_text" class="text u6839_text" style="position: absolute;left: 0px;top: 0px;width: 43px;visibility: inherit">
+                  <p><a id="u6840-8" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">保存</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u6816-9" class="" style="width: 980px; height: 49px;">
+
+            <!-- Unnamed (表格) -->
+            <div id="u6817-9" class="ax_default u6817" style="visibility: inherit">
+
+              <!-- xuanZe (单元格) -->
+              <div id="u6818-9" class="ax_default _默认样式 u6818" data-label="xuanZe" style="width: 100px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                <img id="u6818-9_img" class="img u6818_img" src="images/制程检验/xuanze_u1048.png"/>
+              </div>
+
+              <!-- xuHao (单元格) -->
+              <div id="u6819-9" class="ax_default _默认样式 u6819" data-label="xuHao" style="width: 100px; height: 50px; left: 100px; top: 0px;visibility: inherit">
+                <img id="u6819-9_img" class="img u6819_img" src="images/制程检验/xuanze_u1048.png"/>
+                <div id="u6819-9_text" class="text u6819_text" style="position: absolute;left: 15px;top: 16px;width: 83px;visibility: inherit">
+                  <p><span>序号</span></p>
+                </div>
+              </div>
+
+              <!-- piHao (单元格) -->
+              <div id="u6820-9" class="ax_default _默认样式 u6820" data-label="piHao" style="width: 200px; height: 50px; left: 200px; top: 0px;visibility: inherit">
+                <img id="u6820-9_img" class="img u6820_img" src="images/角色管理/pihao_u6820.png"/>
+                <div id="u6820-9_text" class="text u6820_text" style="position: absolute;left: 15px;top: 16px;width: 183px;visibility: inherit">
+                  <p><span>角色名称</span></p>
+                </div>
+              </div>
+
+              <!-- chuangJianRen (单元格) -->
+              <div id="u6821-9" class="ax_default _默认样式 u6821" data-label="chuangJianRen" style="width: 240px; height: 50px; left: 400px; top: 0px;visibility: inherit">
+                <img id="u6821-9_img" class="img u6821_img" src="images/角色管理/chuangjianren_u6821.png"/>
+                <div id="u6821-9_text" class="text u6821_text" style="position: absolute;left: 15px;top: 16px;width: 223px;visibility: inherit">
+                  <p><span>描述</span></p>
+                </div>
+              </div>
+
+              <!-- caoZuo (单元格) -->
+              <div id="u6822-9" class="ax_default _默认样式 u6822" data-label="caoZuo" style="width: 340px; height: 50px; left: 640px; top: 0px;visibility: inherit">
+                <img id="u6822-9_img" class="img u6822_img" src="images/角色管理/caozuo_u6822.png"/>
+                <div id="u6822-9_text" class="text u6822_text" style="position: absolute;left: 15px;top: 16px;width: 323px;visibility: inherit">
+                  <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span><a id="u6823-9" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">编辑</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp; </span><a id="u6824-9" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">删除</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6825-9" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">成员管理</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6826-9" class="link"><span style="font-family:'FontAwesome';"></span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"> 权限管理</span></a><span style="font-family:'FontAwesome';">&nbsp; </span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 复选框 (矩形) -->
+            <div id="u6827-9" class="ax_default _默认样式 u6827" data-label="复选框" style="width: 18px; height: 18px; left: 39px; top: 16px;visibility: inherit">
+              <div id="u6827-9_div" class="u6827_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+              <div id="u6827-9_text" class="text u6827_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- 表格高亮行 (矩形) -->
+            <div id="u6828-9" class="ax_default _高亮行 u6828" data-label="表格高亮行" style="width: 920px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+              <div id="u6828-9_div" class="u6828_div" style="width: 920px; height: 50px;visibility: inherit"></div>
+            </div>
+
+            <!-- 描述输入框 (组 合) -->
+            <div id="u6829-9" class="ax_default u6829" data-label="描述输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6830-9" class="ax_default _默认样式 u6830" data-label="边框" style="width: 220px; height: 40px; left: 410px; top: 4px;visibility: inherit">
+                <img id="u6830-9_img" class="img u6830_img" src="images/流程管理/边框_u4634.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6831-9" class="ax_default _默认样式 u6831" data-label="输入框" style="visibility: inherit">
+                <input id="u6831-9_input" type="text" value="" class="u6831_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 角色名输入框 (组 合) -->
+            <div id="u6832-9" class="ax_default u6832" data-label="角色名输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6833-9" class="ax_default _默认样式 u6833" data-label="边框" style="width: 180px; height: 40px; left: 211px; top: 4px;visibility: inherit">
+                <img id="u6833-9_img" class="img u6833_img" src="images/角色管理/边框_u6833.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6834-9" class="ax_default _默认样式 u6834" data-label="输入框" style="visibility: inherit">
+                <input id="u6834-9_input" type="text" value="" class="u6834_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 编辑操作 (组 合) -->
+            <div id="u6835-9" class="ax_default u6835" data-label="编辑操作" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6836-9" class="ax_default box_1 u6836" style="width: 90px; height: 20px; left: 647px; top: 14px;visibility: inherit">
+                <div id="u6836-9_div" class="u6836_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6837-9" class="ax_default _文本段落 u6837" style="width: 40px; height: 17px; left: 697px; top: 15px;visibility: inherit">
+                <div id="u6837-9_div" class="u6837_div" style="width: 40px; height: 17px;visibility: inherit"></div>
+                <div id="u6837-9_text" class="text u6837_text" style="position: absolute;left: 0px;top: 0px;width: 40px;visibility: inherit">
+                  <p><a id="u6838-9" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">取消</span></a></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6839-9" class="ax_default _文本段落 u6839" style="width: 43px; height: 17px; left: 647px; top: 15px;visibility: inherit">
+                <div id="u6839-9_div" class="u6839_div" style="width: 43px; height: 17px;visibility: inherit"></div>
+                <div id="u6839-9_text" class="text u6839_text" style="position: absolute;left: 0px;top: 0px;width: 43px;visibility: inherit">
+                  <p><a id="u6840-9" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">保存</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u6816-10" class="" style="width: 980px; height: 49px;">
+
+            <!-- Unnamed (表格) -->
+            <div id="u6817-10" class="ax_default u6817" style="visibility: inherit">
+
+              <!-- xuanZe (单元格) -->
+              <div id="u6818-10" class="ax_default _默认样式 u6818" data-label="xuanZe" style="width: 100px; height: 50px; left: 0px; top: 0px;visibility: inherit">
+                <img id="u6818-10_img" class="img u6818_img" src="images/制程检验/xuanze_u1048.png"/>
+              </div>
+
+              <!-- xuHao (单元格) -->
+              <div id="u6819-10" class="ax_default _默认样式 u6819" data-label="xuHao" style="width: 100px; height: 50px; left: 100px; top: 0px;visibility: inherit">
+                <img id="u6819-10_img" class="img u6819_img" src="images/制程检验/xuanze_u1048.png"/>
+                <div id="u6819-10_text" class="text u6819_text" style="position: absolute;left: 15px;top: 16px;width: 83px;visibility: inherit">
+                  <p><span>序号</span></p>
+                </div>
+              </div>
+
+              <!-- piHao (单元格) -->
+              <div id="u6820-10" class="ax_default _默认样式 u6820" data-label="piHao" style="width: 200px; height: 50px; left: 200px; top: 0px;visibility: inherit">
+                <img id="u6820-10_img" class="img u6820_img" src="images/角色管理/pihao_u6820.png"/>
+                <div id="u6820-10_text" class="text u6820_text" style="position: absolute;left: 15px;top: 16px;width: 183px;visibility: inherit">
+                  <p><span>角色名称</span></p>
+                </div>
+              </div>
+
+              <!-- chuangJianRen (单元格) -->
+              <div id="u6821-10" class="ax_default _默认样式 u6821" data-label="chuangJianRen" style="width: 240px; height: 50px; left: 400px; top: 0px;visibility: inherit">
+                <img id="u6821-10_img" class="img u6821_img" src="images/角色管理/chuangjianren_u6821.png"/>
+                <div id="u6821-10_text" class="text u6821_text" style="position: absolute;left: 15px;top: 16px;width: 223px;visibility: inherit">
+                  <p><span>描述</span></p>
+                </div>
+              </div>
+
+              <!-- caoZuo (单元格) -->
+              <div id="u6822-10" class="ax_default _默认样式 u6822" data-label="caoZuo" style="width: 340px; height: 50px; left: 640px; top: 0px;visibility: inherit">
+                <img id="u6822-10_img" class="img u6822_img" src="images/角色管理/caozuo_u6822.png"/>
+                <div id="u6822-10_text" class="text u6822_text" style="position: absolute;left: 15px;top: 16px;width: 323px;visibility: inherit">
+                  <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span><a id="u6823-10" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">编辑</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp; </span><a id="u6824-10" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">删除</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6825-10" class="link"><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">成员管理</span></a><span style="font-family:'FontAwesome';">&nbsp; &nbsp;&nbsp; </span><a id="u6826-10" class="link"><span style="font-family:'FontAwesome';"></span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"> 权限管理</span></a><span style="font-family:'FontAwesome';">&nbsp; </span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 复选框 (矩形) -->
+            <div id="u6827-10" class="ax_default _默认样式 u6827" data-label="复选框" style="width: 18px; height: 18px; left: 39px; top: 16px;visibility: inherit">
+              <div id="u6827-10_div" class="u6827_div" style="width: 18px; height: 18px;visibility: inherit"></div>
+              <div id="u6827-10_text" class="text u6827_text" style="position: absolute;left: 2px;top: 0px;width: 14px;visibility: inherit">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- 表格高亮行 (矩形) -->
+            <div id="u6828-10" class="ax_default _高亮行 u6828" data-label="表格高亮行" style="width: 920px; height: 50px; left: 0px; top: -1px;display:none; visibility: hidden">
+              <div id="u6828-10_div" class="u6828_div" style="width: 920px; height: 50px;visibility: inherit"></div>
+            </div>
+
+            <!-- 描述输入框 (组 合) -->
+            <div id="u6829-10" class="ax_default u6829" data-label="描述输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6830-10" class="ax_default _默认样式 u6830" data-label="边框" style="width: 220px; height: 40px; left: 410px; top: 4px;visibility: inherit">
+                <img id="u6830-10_img" class="img u6830_img" src="images/流程管理/边框_u4634.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6831-10" class="ax_default _默认样式 u6831" data-label="输入框" style="visibility: inherit">
+                <input id="u6831-10_input" type="text" value="" class="u6831_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 角色名输入框 (组 合) -->
+            <div id="u6832-10" class="ax_default u6832" data-label="角色名输入框" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- 边框 (矩形) -->
+              <div id="u6833-10" class="ax_default _默认样式 u6833" data-label="边框" style="width: 180px; height: 40px; left: 211px; top: 4px;visibility: inherit">
+                <img id="u6833-10_img" class="img u6833_img" src="images/角色管理/边框_u6833.png"/>
+              </div>
+
+              <!-- 输入框 (文本框) -->
+              <div id="u6834-10" class="ax_default _默认样式 u6834" data-label="输入框" style="visibility: inherit">
+                <input id="u6834-10_input" type="text" value="" class="u6834_input" maxlength="20"/>
+              </div>
+            </div>
+
+            <!-- 编辑操作 (组 合) -->
+            <div id="u6835-10" class="ax_default u6835" data-label="编辑操作" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6836-10" class="ax_default box_1 u6836" style="width: 90px; height: 20px; left: 647px; top: 14px;visibility: inherit">
+                <div id="u6836-10_div" class="u6836_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6837-10" class="ax_default _文本段落 u6837" style="width: 40px; height: 17px; left: 697px; top: 15px;visibility: inherit">
+                <div id="u6837-10_div" class="u6837_div" style="width: 40px; height: 17px;visibility: inherit"></div>
+                <div id="u6837-10_text" class="text u6837_text" style="position: absolute;left: 0px;top: 0px;width: 40px;visibility: inherit">
+                  <p><a id="u6838-10" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">取消</span></a></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u6839-10" class="ax_default _文本段落 u6839" style="width: 43px; height: 17px; left: 647px; top: 15px;visibility: inherit">
+                <div id="u6839-10_div" class="u6839_div" style="width: 43px; height: 17px;visibility: inherit"></div>
+                <div id="u6839-10_text" class="text u6839_text" style="position: absolute;left: 0px;top: 0px;width: 43px;visibility: inherit">
+                  <p><a id="u6840-10" class="link"><span style="font-family:'FontAwesome';">&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">保存</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 复选框 (矩形) -->
+        <div id="u6841" class="ax_default _默认样式" data-label="复选框">
+          <div id="u6841_div" class=""></div>
+          <div id="u6841_text" class="text ">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u6842" class="ax_default" data-left="130" data-top="50" data-width="980" data-height="90">
+
+        <!-- Unnamed (组 合) -->
+        <div id="u6843" class="ax_default" data-left="130" data-top="50" data-width="980" data-height="90">
+
+          <!-- 页头底部 (矩形) -->
+          <div id="u6844" class="ax_default _默认样式" data-label="页头底部">
+            <div id="u6844_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6845" class="ax_default _默认样式">
+            <div id="u6845_div" class=""></div>
+            <div id="u6845_text" class="text ">
+              <p><a id="u6846" class="link"><span style="color:#0079FE;">首页</span></a><span style="color:#999999;"> &gt;</span><span style="color:#666666;"> </span><span style="color:#999999;">用户与权限</span><span style="color:#666666;"> </span><span style="color:#999999;">&gt;</span><span style="color:#666666;"> </span><a id="u6847" class="link"><span style="color:#0079FE;">角色管理</span></a></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6848" class="ax_default _默认样式">
+            <div id="u6848_div" class=""></div>
+            <div id="u6848_text" class="text ">
+              <p><span>角色管理</span></p>
+            </div>
+          </div>
+
+          <!-- 面包屑弹出 (动态面板) -->
+          <div id="u6849" class="ax_default" data-label="面包屑弹出">
+            <div id="u6849_state0" class="panel_state" data-label="State1" style="">
+              <div id="u6849_state0_content" class="panel_state_content">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6850" class="ax_default box_1">
+                  <div id="u6850_div" class=""></div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6851" class="ax_default box_2 selected">
+                  <div id="u6851_div" class="selected"></div>
+                  <div id="u6851_text" class="text ">
+                    <p><span>制程检验</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6852" class="ax_default box_2">
+                  <div id="u6852_div" class=""></div>
+                  <div id="u6852_text" class="text ">
+                    <p><span>样品送检</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6853" class="ax_default box_2">
+                  <div id="u6853_div" class=""></div>
+                  <div id="u6853_text" class="text ">
+                    <p><span>原材料检验</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6854" class="ax_default box_2">
+                  <div id="u6854_div" class=""></div>
+                  <div id="u6854_text" class="text ">
+                    <p><span>进货检验</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6855" class="ax_default box_2">
+                  <div id="u6855_div" class=""></div>
+                  <div id="u6855_text" class="text ">
+                    <p><span>中间品检验</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6856" class="ax_default box_2">
+                  <div id="u6856_div" class=""></div>
+                  <div id="u6856_text" class="text ">
+                    <p><span>成品检验</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6857" class="ax_default box_2">
+                  <div id="u6857_div" class=""></div>
+                  <div id="u6857_text" class="text ">
+                    <p><span>不合格审评表</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6858" class="ax_default box_2">
+                  <div id="u6858_div" class=""></div>
+                  <div id="u6858_text" class="text ">
+                    <p><span>不合格跟踪表</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (菜单和导航) -->
+
+      <!-- 帮助中心 (组 合) -->
+      <div id="u6860" class="ax_default ax_default_hidden" data-label="帮助中心" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6861" class="ax_default box_2">
+          <div id="u6861_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6862" class="ax_default _默认样式">
+          <div id="u6862_div" class=""></div>
+          <div id="u6862_text" class="text ">
+            <p><span>帮助中心</span></p>
+          </div>
+        </div>
+
+        <!-- 帮助 (矩形) -->
+        <div id="u6863" class="ax_default box_1" data-label="帮助">
+          <div id="u6863_div" class=""></div>
+          <div id="u6863_text" class="text ">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6864" class="ax_default label">
+          <div id="u6864_div" class=""></div>
+          <div id="u6864_text" class="text ">
+            <p><span>您可能需要以下文档</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6865" class="ax_default label">
+          <div id="u6865_div" class=""></div>
+          <div id="u6865_text" class="text ">
+            <p><a id="u6866" class="link"><span>质量流程使用说明</span></a></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6867" class="ax_default label">
+          <div id="u6867_div" class=""></div>
+          <div id="u6867_text" class="text ">
+            <p><a id="u6868" class="link"><span>智能仓库使用说明</span></a></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6869" class="ax_default label">
+          <div id="u6869_div" class=""></div>
+          <div id="u6869_text" class="text ">
+            <p><a id="u6870" class="link"><span>用户管理使用说明</span></a></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u6871" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6872" class="ax_default _默认样式">
+            <div id="u6872_div" class=""></div>
+            <div id="u6872_text" class="text ">
+              <p><span>#0079FE</span></p><p><span>主要颜色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6873" class="ax_default _默认样式">
+            <div id="u6873_div" class=""></div>
+            <div id="u6873_text" class="text ">
+              <p><span style="font-family:'Helvetica';">#4BD863</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">辅助颜色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6874" class="ax_default _默认样式">
+            <div id="u6874_div" class=""></div>
+            <div id="u6874_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">#FF3B30</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">辅助颜色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6875" class="ax_default _默认样式">
+            <div id="u6875_div" class=""></div>
+            <div id="u6875_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">#FE9400</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">辅助颜色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6876" class="ax_default _默认样式">
+            <div id="u6876_div" class=""></div>
+            <div id="u6876_text" class="text ">
+              <p><span>#333333</span></p><p><span>字体用色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6877" class="ax_default _默认样式">
+            <div id="u6877_div" class=""></div>
+            <div id="u6877_text" class="text ">
+              <p><span>#666666</span></p><p><span>字体用色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6878" class="ax_default _默认样式">
+            <div id="u6878_div" class=""></div>
+            <div id="u6878_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">#CCCCCC</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">字体用色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6879" class="ax_default _默认样式">
+            <div id="u6879_div" class=""></div>
+            <div id="u6879_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">#999999</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">字体用色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6880" class="ax_default _默认样式">
+            <div id="u6880_div" class=""></div>
+            <div id="u6880_text" class="text ">
+              <p><span>#3399ff</span></p><p><span>辅助颜色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6881" class="ax_default _默认样式">
+            <div id="u6881_div" class=""></div>
+            <div id="u6881_text" class="text ">
+              <p><span>#464c5b</span></p><p><span>辅助颜色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6882" class="ax_default _默认样式">
+            <div id="u6882_div" class=""></div>
+            <div id="u6882_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">#2db7f5</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">辅助颜色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6883" class="ax_default _默认样式">
+            <div id="u6883_div" class=""></div>
+            <div id="u6883_text" class="text ">
+              <p><span style="font-family:'微软雅黑';font-weight:400;">#F95E5A</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">辅助颜色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6884" class="ax_default _默认样式">
+            <div id="u6884_div" class=""></div>
+            <div id="u6884_text" class="text ">
+              <p><span>#E4E4E4</span></p><p><span>边框用色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6885" class="ax_default _默认样式">
+            <div id="u6885_div" class=""></div>
+            <div id="u6885_text" class="text ">
+              <p><span>#E9E9E9</span></p><p><span>边框用色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6886" class="ax_default _默认样式">
+            <div id="u6886_div" class=""></div>
+            <div id="u6886_text" class="text ">
+              <p><span>#F5F5F5</span></p><p><span>背景用色</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u6887" class="ax_default _默认样式">
+            <div id="u6887_div" class=""></div>
+            <div id="u6887_text" class="text ">
+              <p><span>#F2F2F2</span></p><p><span>背景用色</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6888" class="ax_default label">
+          <div id="u6888_div" class=""></div>
+          <div id="u6888_text" class="text ">
+            <p><a id="u6889" class="link"><span>常用组件样式</span></a></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u6890" class="ax_default line">
+          <img id="u6890_img" class="img " src="images/index/u31.png"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6891" class="ax_default label">
+          <div id="u6891_div" class=""></div>
+          <div id="u6891_text" class="text ">
+            <p><span>设计版本更新说明：</span></p>
+          </div>
+        </div>
+
+        <!-- 版本更新说明 (动态面板) -->
+        <div id="u6892" class="ax_default" data-label="版本更新说明">
+          <div id="u6892_state0" class="panel_state" data-label="State1" style="">
+            <div id="u6892_state0_content" class="panel_state_content">
+
+              <!-- 版本更新说明 (矩形) -->
+              <div id="u6893" class="ax_default label" data-label="版本更新说明">
+                <div id="u6893_div" class=""></div>
+                <div id="u6893_text" class="text ">
+                  <p><span>v1.10 2018年11月26日</span></p><p><span><br></span></p><p><span>新增：</span></p><p><span>·待办事项页面（未完成）</span></p><p><span>·待办事项侧边栏（未完成）</span></p><p><span>·角色管理页面</span></p><p><span>&nbsp;&nbsp;&nbsp; </span></p><p><span>更新：</span></p><p><span>·login页面底部文本“长沙矿冶研究院……”的字体颜色</span></p><p><span>·质量流程所有页面，“送样日期”现在改为“送检日期”</span></p><p><span>·盘库管理，修改表头中“记录数量”，“实际数量”，“记录重量”，“实际重量”的位置，现在的位置是正确的</span></p><p><span><br></span></p><p><span>——————————————————————————————</span></p><p><span><br></span></p><p><span>v1.9 2018年11月23日</span></p><p><span><br></span></p><p><span>更新：</span></p><p><span>·制程检验页面，现在仅当编辑后保存但未申请审核的数据可以删除和编辑</span></p><p><span>·样品送检页面，现在仅当编辑后保存但未申请审核的数据可以删除和编辑</span></p><p><span>`原材料检验，录检弹出框中的计量单位，现在为只读状态，根据检测的项目自动获取</span></p><p><span>·进货检验，标签“打包”现在叫做“生成”，所有的“打包”相关文本都变更为“生成”；审核面板下，表头字段“审核状态”改为“发布状态”，值改为“已发布”“未发布”，“已发布”的数据，操作栏中的“发布”为禁用状态</span></p><p><span>·中间品检验，表头新增“发布状态”，操作栏新增“发布”操作，已发布的数据，操作栏中的发布状态为禁用；发布弹出框，实为详情数据右下角加一个发布按钮；录检弹出框中的计量单位，现在为只读状态，根据检测的项目自动获取</span></p><p><span>·成品检验，表头新增“发布状态”，操作栏新增“发布”操作，已发布的数据，操作栏中的发布状态为禁用；发布弹出框，实为详情数据右下角加一个发布按钮；录检弹出框中的计量单位，现在为只读状态，根据检测的项目自动获取</span></p><p><span><br></span></p><p><span><br></span></p><p><span><br></span></p><p><span><br></span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 待办事项 (组 合) -->
+      <div id="u6894" class="ax_default ax_default_hidden" data-label="待办事项" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6895" class="ax_default box_2">
+          <div id="u6895_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6896" class="ax_default _默认样式">
+          <div id="u6896_div" class=""></div>
+          <div id="u6896_text" class="text ">
+            <p><span>待办事项</span></p>
+          </div>
+        </div>
+
+        <!-- 帮助 (矩形) -->
+        <div id="u6897" class="ax_default box_1" data-label="帮助">
+          <div id="u6897_div" class=""></div>
+          <div id="u6897_text" class="text ">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6898" class="ax_default _默认样式">
+          <img id="u6898_img" class="img " src="images/index/u39.png"/>
+          <div id="u6898_text" class="text ">
+            <p><span>2018年10月10日 </span></p><p><span>星期一</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (动态面板) -->
+        <div id="u6899" class="ax_default">
+          <div id="u6899_state0" class="panel_state" data-label="State1" style="">
+            <div id="u6899_state0_content" class="panel_state_content">
+
+              <!-- Unnamed (组 合) -->
+              <div id="u6900" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6901" class="ax_default box_1">
+                  <div id="u6901_div" class=""></div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6902" class="ax_default label">
+                  <div id="u6902_div" class=""></div>
+                  <div id="u6902_text" class="text ">
+                    <p><span style="color:#0079FE;">进货检验 ECT/2132113</span><span> </span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6903" class="ax_default _默认样式">
+                  <div id="u6903_div" class=""></div>
+                  <div id="u6903_text" class="text ">
+                    <p><span>审核</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6904" class="ax_default label">
+                  <div id="u6904_div" class=""></div>
+                  <div id="u6904_text" class="text ">
+                    <p><span>紧急</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6905" class="ax_default label">
+                  <div id="u6905_div" class=""></div>
+                  <div id="u6905_text" class="text ">
+                    <p><span>2018年10月10日</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6906" class="ax_default label">
+                  <div id="u6906_div" class=""></div>
+                  <div id="u6906_text" class="text ">
+                    <p><span>核对数据，检查标准是否判断正确 </span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (组 合) -->
+              <div id="u6907" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6908" class="ax_default box_1">
+                  <div id="u6908_div" class=""></div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6909" class="ax_default label">
+                  <div id="u6909_div" class=""></div>
+                  <div id="u6909_text" class="text ">
+                    <p><span style="color:#0079FE;">中间品检验 ECT/2132113</span><span> </span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6910" class="ax_default _默认样式">
+                  <div id="u6910_div" class=""></div>
+                  <div id="u6910_text" class="text ">
+                    <p><span>审核</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6911" class="ax_default label">
+                  <div id="u6911_div" class=""></div>
+                  <div id="u6911_text" class="text ">
+                    <p><span>正常</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6912" class="ax_default label">
+                  <div id="u6912_div" class=""></div>
+                  <div id="u6912_text" class="text ">
+                    <p><span>2018年10月10日</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6913" class="ax_default label">
+                  <div id="u6913_div" class=""></div>
+                  <div id="u6913_text" class="text ">
+                    <p><span>核对数据，检查标准是否判断正确 </span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (组 合) -->
+              <div id="u6914" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6915" class="ax_default box_1">
+                  <div id="u6915_div" class=""></div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6916" class="ax_default label">
+                  <div id="u6916_div" class=""></div>
+                  <div id="u6916_text" class="text ">
+                    <p><span style="color:#0079FE;">成品检验 ECT/2132113</span><span> </span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6917" class="ax_default _默认样式">
+                  <div id="u6917_div" class=""></div>
+                  <div id="u6917_text" class="text ">
+                    <p><span>审核</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6918" class="ax_default label">
+                  <div id="u6918_div" class=""></div>
+                  <div id="u6918_text" class="text ">
+                    <p><span>正常</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6919" class="ax_default label">
+                  <div id="u6919_div" class=""></div>
+                  <div id="u6919_text" class="text ">
+                    <p><span>2018年10月10日</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6920" class="ax_default label">
+                  <div id="u6920_div" class=""></div>
+                  <div id="u6920_text" class="text ">
+                    <p><span>核对数据，检查标准是否判断正确 </span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (组 合) -->
+              <div id="u6921" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6922" class="ax_default box_1">
+                  <div id="u6922_div" class=""></div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6923" class="ax_default label">
+                  <div id="u6923_div" class=""></div>
+                  <div id="u6923_text" class="text ">
+                    <p><span style="color:#0079FE;">进货检验 ECT/2132113</span><span> </span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6924" class="ax_default _默认样式">
+                  <div id="u6924_div" class=""></div>
+                  <div id="u6924_text" class="text ">
+                    <p><span>审核</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6925" class="ax_default label">
+                  <div id="u6925_div" class=""></div>
+                  <div id="u6925_text" class="text ">
+                    <p><span>正常</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6926" class="ax_default label">
+                  <div id="u6926_div" class=""></div>
+                  <div id="u6926_text" class="text ">
+                    <p><span>2018年10月10日</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6927" class="ax_default label">
+                  <div id="u6927_div" class=""></div>
+                  <div id="u6927_text" class="text ">
+                    <p><span>核对数据，检查标准是否判断正确 </span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (组 合) -->
+              <div id="u6928" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6929" class="ax_default box_1">
+                  <div id="u6929_div" class=""></div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6930" class="ax_default label">
+                  <div id="u6930_div" class=""></div>
+                  <div id="u6930_text" class="text ">
+                    <p><span style="color:#0079FE;">进货检验 ECT/2132113</span><span> </span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6931" class="ax_default _默认样式">
+                  <div id="u6931_div" class=""></div>
+                  <div id="u6931_text" class="text ">
+                    <p><span>审核</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6932" class="ax_default label">
+                  <div id="u6932_div" class=""></div>
+                  <div id="u6932_text" class="text ">
+                    <p><span>正常</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6933" class="ax_default label">
+                  <div id="u6933_div" class=""></div>
+                  <div id="u6933_text" class="text ">
+                    <p><span>2018年10月10日</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u6934" class="ax_default label">
+                  <div id="u6934_div" class=""></div>
+                  <div id="u6934_text" class="text ">
+                    <p><span>核对数据，检查标准是否判断正确 </span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u6935" class="ax_default box_1">
+        <div id="u6935_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u6936" class="ax_default _图片">
+        <img id="u6936_img" class="img " src="images/logo.jpg"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u6937" class="ax_default _默认样式">
+        <img id="u6937_img" class="img " src="images/index/u78.png"/>
+        <div id="u6937_text" class="text ">
+          <p><span>金驰 2+1 信息管理系统</span></p>
+        </div>
+      </div>
+
+      <!-- 操作 (组 合) -->
+      <div id="u6938" class="ax_default" data-label="操作" data-left="965" data-top="8" data-width="125" data-height="35">
+
+        <!-- 退出 (矩形) -->
+        <div id="u6939" class="ax_default box_1" data-label="退出">
+          <div id="u6939_div" class=""></div>
+          <div id="u6939_text" class="text ">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- 待办 (矩形) -->
+        <div id="u6940" class="ax_default box_1" data-label="待办">
+          <div id="u6940_div" class=""></div>
+          <div id="u6940_text" class="text ">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- 帮助 (矩形) -->
+        <div id="u6941" class="ax_default box_1" data-label="帮助">
+          <div id="u6941_div" class=""></div>
+          <div id="u6941_text" class="text ">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u6942" class="ax_default box_3">
+        <div id="u6942_div" class=""></div>
+      </div>
+
+      <!-- 角色管理 (动态面板) -->
+      <div id="u6943" class="ax_default" data-label="角色管理">
+        <div id="u6943_state0" class="panel_state" data-label="隐藏" style="">
+          <div id="u6943_state0_content" class="panel_state_content">
+
+            <!-- 角色管理 (矩形) -->
+            <div id="u6944" class="ax_default box_1" data-label="角色管理">
+              <div id="u6944_div" class=""></div>
+              <div id="u6944_text" class="text ">
+                <p><span>角色管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6945" class="ax_default _文本段落">
+              <div id="u6945_div" class=""></div>
+              <div id="u6945_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6946" class="ax_default _文本段落">
+              <div id="u6946_div" class=""></div>
+              <div id="u6946_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u6943_state1" class="panel_state" data-label="显示" style="visibility: hidden;">
+          <div id="u6943_state1_content" class="panel_state_content">
+
+            <!-- 角色管理 (矩形) -->
+            <div id="u6947" class="ax_default box_1" data-label="角色管理">
+              <div id="u6947_div" class=""></div>
+              <div id="u6947_text" class="text ">
+                <p><span>角色管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6948" class="ax_default _子菜单项">
+              <div id="u6948_div" class=""></div>
+              <div id="u6948_text" class="text ">
+                <p><span>角色管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6949" class="ax_default _子菜单项">
+              <div id="u6949_div" class=""></div>
+              <div id="u6949_text" class="text ">
+                <p><span>菜单管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6950" class="ax_default _子菜单项">
+              <div id="u6950_div" class=""></div>
+              <div id="u6950_text" class="text ">
+                <p><span>操作管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6951" class="ax_default _子菜单项">
+              <div id="u6951_div" class=""></div>
+              <div id="u6951_text" class="text ">
+                <p><span>部门管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6952" class="ax_default _子菜单项">
+              <div id="u6952_div" class=""></div>
+              <div id="u6952_text" class="text ">
+                <p><span>用户管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6953" class="ax_default _文本段落">
+              <div id="u6953_div" class=""></div>
+              <div id="u6953_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6954" class="ax_default _文本段落">
+              <div id="u6954_div" class=""></div>
+              <div id="u6954_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 质量流程 (动态面板) -->
+      <div id="u6955" class="ax_default" data-label="质量流程">
+        <div id="u6955_state0" class="panel_state" data-label="隐藏" style="">
+          <div id="u6955_state0_content" class="panel_state_content">
+
+            <!-- 质量流程 (矩形) -->
+            <div id="u6956" class="ax_default box_1" data-label="质量流程">
+              <div id="u6956_div" class=""></div>
+              <div id="u6956_text" class="text ">
+                <p><span>质量流程</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6957" class="ax_default _文本段落">
+              <div id="u6957_div" class=""></div>
+              <div id="u6957_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6958" class="ax_default _文本段落">
+              <div id="u6958_div" class=""></div>
+              <div id="u6958_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u6955_state1" class="panel_state" data-label="显示" style="visibility: hidden;">
+          <div id="u6955_state1_content" class="panel_state_content">
+
+            <!-- 质量流程 (矩形) -->
+            <div id="u6959" class="ax_default box_1" data-label="质量流程">
+              <div id="u6959_div" class=""></div>
+              <div id="u6959_text" class="text ">
+                <p><span>质量流程</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6960" class="ax_default _子菜单项">
+              <div id="u6960_div" class=""></div>
+              <div id="u6960_text" class="text ">
+                <p><span>数据录入</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6961" class="ax_default _子菜单项">
+              <div id="u6961_div" class=""></div>
+              <div id="u6961_text" class="text ">
+                <p><span>流程管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6962" class="ax_default _子菜单项">
+              <div id="u6962_div" class=""></div>
+              <div id="u6962_text" class="text ">
+                <p><span>待办事项</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6963" class="ax_default _子菜单项">
+              <div id="u6963_div" class=""></div>
+              <div id="u6963_text" class="text ">
+                <p><span>基础数据</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6964" class="ax_default _文本段落">
+              <div id="u6964_div" class=""></div>
+              <div id="u6964_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6965" class="ax_default _文本段落">
+              <div id="u6965_div" class=""></div>
+              <div id="u6965_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 智能仓库 (动态面板) -->
+      <div id="u6966" class="ax_default" data-label="智能仓库">
+        <div id="u6966_state0" class="panel_state" data-label="隐藏" style="">
+          <div id="u6966_state0_content" class="panel_state_content">
+
+            <!-- 一级菜单 (矩形) -->
+            <div id="u6967" class="ax_default box_1" data-label="一级菜单">
+              <div id="u6967_div" class=""></div>
+              <div id="u6967_text" class="text ">
+                <p><span>智能仓库</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6968" class="ax_default _文本段落">
+              <div id="u6968_div" class=""></div>
+              <div id="u6968_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6969" class="ax_default _文本段落">
+              <div id="u6969_div" class=""></div>
+              <div id="u6969_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u6966_state1" class="panel_state" data-label="显示" style="visibility: hidden;">
+          <div id="u6966_state1_content" class="panel_state_content">
+
+            <!-- 一级菜单 (矩形) -->
+            <div id="u6970" class="ax_default box_1" data-label="一级菜单">
+              <div id="u6970_div" class=""></div>
+              <div id="u6970_text" class="text ">
+                <p><span>智能仓库</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6971" class="ax_default _子菜单项">
+              <div id="u6971_div" class=""></div>
+              <div id="u6971_text" class="text ">
+                <p><span>入库管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6972" class="ax_default _子菜单项">
+              <div id="u6972_div" class=""></div>
+              <div id="u6972_text" class="text ">
+                <p><span>出库管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6973" class="ax_default _子菜单项">
+              <div id="u6973_div" class=""></div>
+              <div id="u6973_text" class="text ">
+                <p><span>库存管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6974" class="ax_default _子菜单项">
+              <div id="u6974_div" class=""></div>
+              <div id="u6974_text" class="text ">
+                <p><span>盘库管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6975" class="ax_default _子菜单项">
+              <div id="u6975_div" class=""></div>
+              <div id="u6975_text" class="text ">
+                <p><span>红单管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6976" class="ax_default _文本段落">
+              <div id="u6976_div" class=""></div>
+              <div id="u6976_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u6977" class="ax_default _文本段落">
+              <div id="u6977_div" class=""></div>
+              <div id="u6977_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 弹出框底部遮罩 (矩形) -->
+      <div id="u6978" class="ax_default box_3 ax_default_hidden" data-label="弹出框底部遮罩" style="display:none; visibility: hidden">
+        <div id="u6978_div" class=""></div>
+      </div>
+
+      <!-- 操作成功 (组 合) -->
+      <div id="u6979" class="ax_default ax_default_hidden" data-label="操作成功" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6980" class="ax_default _默认样式">
+          <div id="u6980_div" class=""></div>
+          <div id="u6980_text" class="text ">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u6981" class="ax_default _默认样式">
+          <div id="u6981_div" class=""></div>
+          <div id="u6981_text" class="text ">
+            <p><span>操作成功</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
