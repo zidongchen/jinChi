@@ -80,13 +80,7 @@
   border-width:1px;
   border-style:solid;
   border-color:rgba(0, 121, 254, 1);
-  border-left:0px;
-  border-right:0px;
   border-radius:3px;
-  border-top-left-radius:0px;
-  border-top-right-radius:0px;
-  border-bottom-right-radius:0px;
-  border-bottom-left-radius:0px;
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
@@ -123,8 +117,6 @@
   text-align:center;
 }
 .u4_img.mouseOver {
-  width:161px;
-  height:51px;
 }
 .u4.mouseOver {
 }
