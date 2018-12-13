@@ -88,6 +88,9 @@
 .checkbox {
   text-align:left;
 }
+.radio_button {
+  text-align:left;
+}
 ._流程形状 {
 }
 .html_button {
@@ -131,7 +134,7 @@
 ._鼠标按下文本链接时1 {
 }
 ._形状 {
-  font-family:'微软雅黑';
+  font-family:'微软雅黑 Bold', '微软雅黑';
   font-weight:700;
   font-style:normal;
   font-size:16px;
